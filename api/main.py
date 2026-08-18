@@ -36,6 +36,6 @@ def score(req: TransactionRequest):
     combined=pd.concat([user,pd.DataFrame([d])],ignore_index=True); row=build_features(combined).iloc[-1]
     X=model_matrix(pd.DataFrame([row])); b=STATE["bundle"]
     prob=float(b["model"].predict_proba(X)[:,1][0]); raw=float(-b["isolation_forest"].score_samples(b["scaler"].transform(X))[0])
-    anomaly=float(np.clip((raw-b["anomaly_low"])/(b["anomaly_high"]-b["anomaly_low"])*100,0,100)); rule=float(rule_scores(pd.DataFrame([row]))[0])
+    anomaly=float(np.clip((raw-b["anomaly_low"])/(b["anomaly_high"]-b["anomaly_low"])*100,0,100)); rule=float(rule_scores(pd.DataFrame([row])).iloc[0])
     risk=float(combine_scores([prob],[anomaly],[rule])[0]); thresholds=b["metadata"]["risk_thresholds"]
     return ScoreResponse(risk_score=round(risk,2),risk_level=risk_level(risk,thresholds["medium"],thresholds["high"]),anomaly_score=round(anomaly,2),fraud_probability=round(prob,4),rule_score=round(rule,2),reasons=explain(row))

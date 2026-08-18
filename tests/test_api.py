@@ -10,6 +10,9 @@ def test_valid_score():
     with TestClient(app) as c: assert c.post("/score",json=payload()).status_code==200
 def test_unknown_user_does_not_crash():
     with TestClient(app) as c: assert c.post("/score",json=payload()).json()["risk_level"] in ["LOW","MEDIUM","HIGH"]
+def test_known_user_with_history_does_not_crash():
+    p=payload(); p["user_id"]="U0102"; p["timestamp"]="2026-08-19T02:20:00"
+    with TestClient(app) as c: assert c.post("/score",json=p).status_code==200
 def test_zero_rejected():
     p=payload();p["amount"]=0
     with TestClient(app) as c: assert c.post("/score",json=p).status_code==422
