@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: upishield-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+
+  - type: web
+    name: upishield-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard/app.py --server.address 0.0.0.0 --server.port $PORT
+    autoDeploy: true
+    envVars:
+      - key: UPISHIELD_API_URL
+        sync: false

@@ -73,6 +73,8 @@ Create two Web Services from the same repository:
 - Dashboard build: `pip install -r requirements.txt`; start: `streamlit run dashboard/app.py --server.address 0.0.0.0 --server.port $PORT`
 - Set dashboard environment variable `UPISHIELD_API_URL=<deployed FastAPI URL>`.
 
+Alternatively, deploy the included `render.yaml` Blueprint and set `UPISHIELD_API_URL` to the created API service URL.
+
 Artifacts required for inference are committed/deployed with the repository. SQLite is a local/demo read source, not durable cloud storage.
 
 ## Limitations and future work

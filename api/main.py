@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 import joblib, numpy as np, pandas as pd
 from fastapi import FastAPI, HTTPException
-from src.config import ARTIFACT_DIR, PROCESSED_PATH
+from src.config import ARTIFACT_DIR, PROCESSED_PATH, SAMPLE_PATH
 from src.features import build_features, model_matrix
 from src.risk_engine import rule_scores, combine_scores, risk_level, explain
 from .schemas import TransactionRequest, ScoreResponse
@@ -12,7 +12,8 @@ def load_assets():
     path=ARTIFACT_DIR/"risk_bundle.joblib"
     if not path.exists(): return
     STATE["bundle"]=joblib.load(path)
-    STATE["history"]=pd.read_csv(PROCESSED_PATH,parse_dates=["timestamp"])
+    history_path = PROCESSED_PATH if PROCESSED_PATH.exists() else SAMPLE_PATH
+    STATE["history"]=pd.read_csv(history_path,parse_dates=["timestamp"])
 
 @asynccontextmanager
 async def lifespan(app):
