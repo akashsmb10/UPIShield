@@ -1,0 +1,92 @@
+{
+  "dataset": {
+    "transactions": 50000,
+    "users": 1986,
+    "fraud_count": 1085,
+    "fraud_percentage": 2.17,
+    "train_size": 35000,
+    "validation_size": 7500,
+    "test_size": 7500
+  },
+  "rule_baseline": {
+    "threshold": 41.35492,
+    "precision": 0.1,
+    "recall": 0.17568,
+    "f1": 0.12745,
+    "pr_auc": 0.11464,
+    "roc_auc": 0.79851,
+    "false_positive_rate": 0.03183,
+    "confusion_matrix": [
+      [
+        7118,
+        234
+      ],
+      [
+        122,
+        26
+      ]
+    ]
+  },
+  "isolation_forest": {
+    "threshold": 42.45799,
+    "precision": 0.0397,
+    "recall": 0.45946,
+    "f1": 0.07308,
+    "pr_auc": 0.03246,
+    "roc_auc": 0.66328,
+    "false_positive_rate": 0.22375,
+    "confusion_matrix": [
+      [
+        5707,
+        1645
+      ],
+      [
+        80,
+        68
+      ]
+    ]
+  },
+  "selected_supervised_model": "random_forest",
+  "supervised": {
+    "threshold": 0.45973,
+    "precision": 0.22314,
+    "recall": 0.36486,
+    "f1": 0.27692,
+    "pr_auc": 0.22666,
+    "roc_auc": 0.78739,
+    "false_positive_rate": 0.02557,
+    "confusion_matrix": [
+      [
+        7164,
+        188
+      ],
+      [
+        94,
+        54
+      ]
+    ]
+  },
+  "hybrid": {
+    "threshold": 48.69673,
+    "precision": 0.27381,
+    "recall": 0.31081,
+    "f1": 0.29114,
+    "pr_auc": 0.21502,
+    "roc_auc": 0.77628,
+    "false_positive_rate": 0.01659,
+    "confusion_matrix": [
+      [
+        7230,
+        122
+      ],
+      [
+        102,
+        46
+      ]
+    ]
+  },
+  "risk_thresholds": {
+    "medium": 26.78,
+    "high": 48.7
+  }
+}

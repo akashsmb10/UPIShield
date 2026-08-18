@@ -1,0 +1,751 @@
+transaction_id,timestamp,user_id,receiver_id,amount,sender_bank,receiver_bank,device_id,device_type,city,state,transaction_type,merchant_category,transaction_status,is_fraud,fraud_scenario
+T0000005,2026-01-01 00:12:21,U0807,R2160,750.6,Bank_C,Bank_D,D0807_1,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0000148,2026-01-01 06:56:27,U1837,R3447,72.71,Bank_D,Bank_A,NEW_33946,Android,Mumbai,Maharashtra,BillPay,Utilities,SUCCESS,0,none
+T0000200,2026-01-01 08:48:16,U1731,R3618,744.79,Bank_D,Bank_C,NEW_46766,Android,Chennai,Tamil Nadu,Recharge,Other,SUCCESS,0,none
+T0000263,2026-01-01 11:11:21,U1647,R2203,490.09,Bank_A,Bank_B,D1647_1,iOS,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0000293,2026-01-01 12:41:00,U0965,R0217,741.3,Bank_A,Bank_B,D0965_1,iOS,Kolkata,West Bengal,Recharge,Utilities,SUCCESS,0,none
+T0000315,2026-01-01 13:35:45,U0120,R1816,493.14,Bank_C,Bank_A,D0120_1,iOS,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0000509,2026-01-01 20:23:06,U0301,R1999,6694.21,Bank_B,Bank_D,D0301_2,Android,Pune,Maharashtra,Recharge,Groceries,SUCCESS,0,none
+T0000660,2026-01-02 03:30:35,U1765,R3552,153.48,Bank_A,Bank_D,D1765_1,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0000673,2026-01-02 03:53:29,U0406,R3196,2561.88,Bank_C,Bank_E,D0406_1,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0000709,2026-01-02 05:19:34,U0576,R1640,505.01,Bank_A,Bank_C,D0576_1,Android,Jaipur,Rajasthan,P2M,Shopping,SUCCESS,0,none
+T0000726,2026-01-02 05:55:07,U1180,R0860,5864.25,Bank_A,Bank_B,D1180_1,Android,Hyderabad,Telangana,P2M,Shopping,FAILED,0,none
+T0000822,2026-01-02 10:09:00,U1929,R5319,155.76,Bank_D,Bank_E,D1929_1,iOS,Chennai,Tamil Nadu,P2M,Groceries,SUCCESS,0,none
+T0000880,2026-01-02 12:58:31,U1742,R0363,138.73,Bank_A,Bank_E,D1742_2,Android,Hyderabad,Telangana,BillPay,Shopping,SUCCESS,0,none
+T0000986,2026-01-02 18:21:21,U1007,R4670,169.17,Bank_D,Bank_D,D1007_1,iOS,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0000999,2026-01-02 18:55:00,U1518,R0920,135.14,Bank_D,Bank_D,D1518_2,iOS,Mumbai,Maharashtra,P2P,Food,SUCCESS,0,none
+T0001004,2026-01-02 19:03:03,U1503,R5804,958.71,Bank_C,Bank_E,D1503_1,Android,Delhi,Delhi,P2M,Other,SUCCESS,0,none
+T0001031,2026-01-02 20:19:21,U1880,R5562,4671.08,Bank_E,Bank_D,D1880_2,Android,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0001119,2026-01-02 23:28:21,U0347,R2173,250.05,Bank_A,Bank_E,D0347_2,iOS,Chennai,Tamil Nadu,BillPay,Shopping,SUCCESS,0,none
+T0001123,2026-01-02 23:32:02,U1158,R2051,125.38,Bank_B,Bank_B,D1158_1,iOS,Kolkata,West Bengal,BillPay,Food,SUCCESS,0,none
+T0001165,2026-01-03 01:13:27,U0379,R3811,1232.52,Bank_B,Bank_E,D0379_1,iOS,Mumbai,Maharashtra,P2M,Utilities,FAILED,0,none
+T0001389,2026-01-03 11:07:21,U0061,R2883,1315.15,Bank_D,Bank_B,D0061_1,iOS,Jaipur,Rajasthan,P2M,Utilities,SUCCESS,0,none
+T0001391,2026-01-03 11:16:24,U0893,R2968,2768.99,Bank_A,Bank_A,D0893_1,Android,Jaipur,Rajasthan,P2P,Other,SUCCESS,0,none
+T0001415,2026-01-03 12:03:56,U1441,R1659,390.37,Bank_B,Bank_A,D1441_1,Android,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0001571,2026-01-03 18:49:58,U0604,R1479,470.67,Bank_D,Bank_D,D0604_1,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0001641,2026-01-03 21:43:51,U1729,R1102,253.83,Bank_A,Bank_E,D1729_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0001813,2026-01-04 04:37:32,U1474,R0298,106.0,Bank_B,Bank_A,D1474_2,Android,Delhi,Delhi,BillPay,Other,SUCCESS,0,none
+T0001823,2026-01-04 04:52:06,U1066,R2396,667.99,Bank_C,Bank_A,D1066_1,Android,Bengaluru,Karnataka,P2P,Food,SUCCESS,0,none
+T0001901,2026-01-04 08:23:05,U1881,R3966,1103.02,Bank_E,Bank_B,D1881_2,Android,Jaipur,Rajasthan,Recharge,Healthcare,SUCCESS,0,none
+T0001942,2026-01-04 10:05:34,U0395,R1159,983.05,Bank_B,Bank_D,D0395_2,iOS,Kolkata,West Bengal,P2M,Travel,SUCCESS,0,none
+T0002009,2026-01-04 12:56:43,U0369,R1499,1159.28,Bank_D,Bank_B,D0369_2,iOS,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0002190,2026-01-04 19:49:34,U0606,R3579,77.71,Bank_B,Bank_A,D0606_2,iOS,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0002355,2026-01-05 02:31:11,U1214,R4647,289.96,Bank_A,Bank_D,D1214_1,iOS,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0002531,2026-01-05 10:47:22,U1288,R2660,2988.2,Bank_E,Bank_A,D1288_2,Android,Delhi,Delhi,P2M,Other,SUCCESS,0,none
+T0002730,2026-01-05 19:17:11,U1580,R1938,577.79,Bank_A,Bank_A,D1580_2,Android,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0002742,2026-01-05 19:49:52,U1413,R1944,115.75,Bank_E,Bank_D,D1413_2,iOS,Pune,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0002792,2026-01-05 21:48:39,U1765,R3565,304.21,Bank_E,Bank_E,D1765_1,iOS,Pune,Maharashtra,P2M,Other,SUCCESS,0,none
+T0002955,2026-01-06 06:01:58,U1309,R3931,228.87,Bank_A,Bank_C,D1309_1,Android,Chennai,Tamil Nadu,P2M,Food,SUCCESS,0,none
+T0003004,2026-01-06 08:10:36,U1037,R0510,763.7,Bank_B,Bank_B,D1037_1,iOS,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0003017,2026-01-06 08:55:55,U1628,R1587,232.22,Bank_D,Bank_B,D1628_1,Android,Kolkata,West Bengal,BillPay,Utilities,SUCCESS,0,none
+T0003086,2026-01-06 12:03:31,U0006,R0408,148.01,Bank_E,Bank_C,NEW_89832,Android,Chennai,Tamil Nadu,BillPay,Groceries,SUCCESS,0,none
+T0003105,2026-01-06 13:05:25,U0404,R2450,24.7,Bank_B,Bank_A,D0404_1,Android,Pune,Maharashtra,BillPay,Other,SUCCESS,0,none
+T0003157,2026-01-06 15:54:11,U0338,R2191,604.7,Bank_D,Bank_D,D0338_2,Android,Pune,Maharashtra,P2M,Other,SUCCESS,0,none
+T0003212,2026-01-06 18:08:16,U0655,R0941,303.04,Bank_B,Bank_C,D0655_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0003222,2026-01-06 18:41:11,U0883,R0647,4285.57,Bank_A,Bank_B,D0883_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0003420,2026-01-07 03:38:42,U1537,R2712,51.31,Bank_D,Bank_E,D1537_1,Android,Bengaluru,Karnataka,P2M,Travel,SUCCESS,0,none
+T0003427,2026-01-07 03:51:43,U1889,R2207,349.75,Bank_E,Bank_E,D1889_1,iOS,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0003494,2026-01-07 06:53:30,U0404,R0690,300.17,Bank_B,Bank_E,D0404_2,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0003698,2026-01-07 16:49:22,U1280,R1544,966.6,Bank_A,Bank_E,D1280_1,Android,Pune,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0003733,2026-01-07 18:18:15,U1588,R3931,491.05,Bank_D,Bank_A,D1588_1,Android,Mumbai,Maharashtra,P2M,Other,SUCCESS,0,none
+T0003752,2026-01-07 19:06:58,U1680,R2421,430.0,Bank_C,Bank_E,D1680_1,Android,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0003851,2026-01-07 23:18:49,U0935,R0785,77.05,Bank_B,Bank_B,D0935_1,Android,Mumbai,Maharashtra,P2P,Travel,SUCCESS,1,subtle
+T0003863,2026-01-07 23:50:43,U0675,R0796,123.93,Bank_B,Bank_E,D0675_2,Android,Chennai,Tamil Nadu,BillPay,Other,SUCCESS,0,none
+T0003919,2026-01-08 01:41:42,U1868,R0685,4829.24,Bank_D,Bank_B,D1868_1,Android,Hyderabad,Telangana,BillPay,Healthcare,SUCCESS,0,none
+T0003929,2026-01-08 02:02:16,U1713,R0164,985.78,Bank_E,Bank_A,D1713_1,iOS,Jaipur,Rajasthan,BillPay,Travel,SUCCESS,0,none
+T0003940,2026-01-08 02:26:16,U1702,R2154,224.68,Bank_E,Bank_D,D1702_1,Android,Bengaluru,Karnataka,P2M,Travel,SUCCESS,0,none
+T0003941,2026-01-08 02:27:45,U1587,R1551,121.32,Bank_C,Bank_D,D1587_2,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0004029,2026-01-08 06:23:51,U1323,R2958,737.76,Bank_B,Bank_C,D1323_1,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0004040,2026-01-08 06:47:51,U1227,R3380,198.18,Bank_C,Bank_A,D1227_2,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0004065,2026-01-08 07:44:46,U0702,R2243,3356.59,Bank_E,Bank_A,NEW_64910,Android,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0004071,2026-01-08 07:55:59,U0418,R1545,761.16,Bank_A,Bank_D,D0418_1,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0004087,2026-01-08 08:44:11,U0894,R3529,1300.85,Bank_B,Bank_C,D0894_1,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0004108,2026-01-08 09:30:43,U0751,R1231,482.12,Bank_C,Bank_A,D0751_1,iOS,Hyderabad,Telangana,BillPay,Food,SUCCESS,0,none
+T0004145,2026-01-08 11:31:00,U0554,R2102,188.87,Bank_D,Bank_B,D0554_1,iOS,Bengaluru,Karnataka,BillPay,Healthcare,SUCCESS,0,none
+T0004169,2026-01-08 12:29:11,U1672,R5268,5102.0,Bank_B,Bank_D,D1672_2,Android,Chennai,Tamil Nadu,Recharge,Travel,SUCCESS,0,none
+T0004247,2026-01-08 15:26:53,U1109,R1477,1376.22,Bank_C,Bank_B,D1109_2,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0004348,2026-01-08 19:55:32,U0444,R1255,689.37,Bank_B,Bank_D,D0444_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0004363,2026-01-08 20:35:37,U0262,R2007,289.77,Bank_A,Bank_D,D0262_1,iOS,Mumbai,Maharashtra,P2P,Food,SUCCESS,0,none
+T0004470,2026-01-09 00:59:47,U1530,R0706,401.07,Bank_C,Bank_C,D1530_1,Android,Jaipur,Rajasthan,P2M,Shopping,SUCCESS,0,none
+T0004514,2026-01-09 02:41:50,U0412,R2299,224.43,Bank_B,Bank_B,D0412_1,Android,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0004614,2026-01-09 06:46:52,U1645,R5613,680.29,Bank_C,Bank_D,D1645_1,Android,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0004773,2026-01-09 14:50:07,U1501,R1471,243.92,Bank_E,Bank_D,D1501_2,Android,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0004789,2026-01-09 15:36:02,U0470,R4045,557.67,Bank_B,Bank_E,D0470_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0004814,2026-01-09 16:41:17,U1645,R0491,282.55,Bank_E,Bank_A,D1645_1,iOS,Hyderabad,Telangana,P2M,Travel,SUCCESS,0,none
+T0004818,2026-01-09 16:50:58,U0589,R2849,1442.21,Bank_B,Bank_B,D0589_2,iOS,Hyderabad,Telangana,P2M,Healthcare,FAILED,0,none
+T0004851,2026-01-09 18:09:45,U1555,R4308,1530.87,Bank_A,Bank_E,D1555_1,Android,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0004879,2026-01-09 19:28:02,U1483,R0428,748.77,Bank_E,Bank_C,D1483_2,Android,Kolkata,West Bengal,P2M,Shopping,SUCCESS,0,none
+T0004893,2026-01-09 19:59:40,U1174,R1082,72.23,Bank_C,Bank_B,D1174_1,Android,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0004970,2026-01-09 23:33:00,U1823,R4472,2703.76,Bank_B,Bank_C,D1823_2,iOS,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0005049,2026-01-10 03:02:05,U0512,R2091,530.96,Bank_A,Bank_D,D0512_2,iOS,Delhi,Delhi,P2M,Groceries,SUCCESS,0,none
+T0005072,2026-01-10 03:50:30,U1474,R0991,261.18,Bank_E,Bank_D,D1474_2,Android,Delhi,Delhi,BillPay,Groceries,SUCCESS,0,none
+T0005087,2026-01-10 04:30:54,U1695,R3738,287.19,Bank_A,Bank_C,NEW_76320,Android,Bengaluru,Karnataka,BillPay,Travel,SUCCESS,0,none
+T0005223,2026-01-10 10:26:45,U1647,R2203,820.09,Bank_B,Bank_A,D1647_1,iOS,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0005396,2026-01-10 17:47:36,U0005,R3383,850.95,Bank_E,Bank_C,D0005_1,Android,Mumbai,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0005504,2026-01-10 22:26:59,U0751,R0401,608.87,Bank_A,Bank_A,D0751_1,Android,Hyderabad,Telangana,BillPay,Other,SUCCESS,0,none
+T0005546,2026-01-11 00:00:26,U1645,R1959,1745.52,Bank_A,Bank_E,D1645_1,iOS,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0005634,2026-01-11 04:11:46,U1334,R2263,301.0,Bank_E,Bank_A,D1334_1,iOS,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0005804,2026-01-11 11:15:16,U0199,R0904,1311.65,Bank_E,Bank_C,D0199_1,Android,Pune,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0005824,2026-01-11 12:00:32,U0353,R1642,223.67,Bank_A,Bank_C,D0353_1,Android,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0005866,2026-01-11 13:44:57,U0664,R1814,659.1,Bank_E,Bank_E,D0664_2,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0005875,2026-01-11 14:04:55,U1224,R1487,296.65,Bank_B,Bank_B,D1224_1,iOS,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0005947,2026-01-11 17:49:13,U1596,R3984,1287.71,Bank_A,Bank_E,D1596_1,iOS,Kolkata,West Bengal,P2M,Healthcare,SUCCESS,0,none
+T0005988,2026-01-11 19:59:00,U0656,R3511,1036.28,Bank_E,Bank_D,D0656_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0006017,2026-01-11 20:56:26,U1864,R0168,25125.78,Bank_E,Bank_C,D1864_2,Android,Bengaluru,Karnataka,Recharge,Food,SUCCESS,0,none
+T0006018,2026-01-11 20:57:20,U0396,R3652,264.6,Bank_A,Bank_B,D0396_2,iOS,Mumbai,Maharashtra,P2P,Food,SUCCESS,0,none
+T0006021,2026-01-11 21:09:58,U0702,R2460,4849.25,Bank_B,Bank_C,D0702_1,Android,Bengaluru,Karnataka,BillPay,Utilities,SUCCESS,0,none
+T0006035,2026-01-11 21:52:24,U1440,R3240,315.12,Bank_E,Bank_E,D1440_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0006060,2026-01-11 23:21:09,U0879,R2654,117.4,Bank_C,Bank_D,D0879_1,Android,Hyderabad,Telangana,BillPay,Food,SUCCESS,0,none
+T0006096,2026-01-12 00:41:03,U1386,R1583,1678.83,Bank_E,Bank_D,D1386_1,Android,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0006114,2026-01-12 01:12:43,U0079,R2678,502.81,Bank_C,Bank_C,D0079_1,Android,Mumbai,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0006189,2026-01-12 04:10:16,U1587,R2507,294.12,Bank_B,Bank_C,D1587_2,Android,Kolkata,West Bengal,Recharge,Healthcare,SUCCESS,0,none
+T0006218,2026-01-12 05:28:33,U1822,R0299,731.89,Bank_D,Bank_D,D1822_2,Android,Bengaluru,Karnataka,Recharge,Other,FAILED,0,none
+T0006231,2026-01-12 06:14:13,U1454,R3368,2065.27,Bank_D,Bank_A,D1454_1,iOS,Hyderabad,Telangana,P2M,Travel,SUCCESS,0,none
+T0006233,2026-01-12 06:22:46,U0484,R1264,1029.75,Bank_B,Bank_E,D0484_1,iOS,Chennai,Tamil Nadu,P2P,Travel,SUCCESS,1,subtle
+T0006235,2026-01-12 06:27:27,U1558,R2019,127.96,Bank_A,Bank_A,D1558_1,Android,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0006245,2026-01-12 06:55:31,U0449,R1638,401.63,Bank_E,Bank_D,D0449_1,iOS,Pune,Maharashtra,BillPay,Food,SUCCESS,0,none
+T0006355,2026-01-12 11:42:25,U0702,R3055,544.1,Bank_C,Bank_D,D0702_1,Android,Bengaluru,Karnataka,P2M,Food,SUCCESS,0,none
+T0006414,2026-01-12 13:55:38,U1153,R3820,235.85,Bank_C,Bank_A,D1153_1,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0006557,2026-01-12 21:05:32,U0654,R1362,2828.46,Bank_D,Bank_D,D0654_1,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0006624,2026-01-12 23:59:10,U0086,R0132,899.47,Bank_D,Bank_C,D0086_2,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0006657,2026-01-13 01:03:29,U1967,R0491,304.06,Bank_E,Bank_D,D1967_1,iOS,Pune,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0006716,2026-01-13 03:16:27,U0513,R3298,1851.67,Bank_B,Bank_C,D0513_1,Android,Mumbai,Maharashtra,P2M,Utilities,FAILED,0,none
+T0006721,2026-01-13 03:24:07,U1765,R1990,214.28,Bank_C,Bank_D,D1765_1,iOS,Pune,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0006749,2026-01-13 04:51:35,U1618,R2532,1492.34,Bank_B,Bank_A,D1618_2,Android,Kolkata,West Bengal,P2M,Other,SUCCESS,0,none
+T0006809,2026-01-13 07:16:01,U0395,R3811,843.3,Bank_B,Bank_B,D0395_2,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0006849,2026-01-13 09:01:27,U1728,R2035,276.99,Bank_C,Bank_A,D1728_1,Android,Hyderabad,Telangana,P2M,Utilities,SUCCESS,0,none
+T0006926,2026-01-13 12:35:23,U1847,R3714,224.22,Bank_A,Bank_B,D1847_1,Android,Pune,Maharashtra,Recharge,Healthcare,SUCCESS,0,none
+T0006944,2026-01-13 13:26:58,U0642,R2867,332.74,Bank_D,Bank_A,D0642_1,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0006949,2026-01-13 13:33:04,U1468,R2332,5427.01,Bank_A,Bank_B,D1468_2,iOS,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0007135,2026-01-13 21:47:10,U0067,R4814,326.04,Bank_A,Bank_C,D0067_1,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0007143,2026-01-13 22:15:48,U0338,R1818,510.31,Bank_C,Bank_D,D0338_1,iOS,Pune,Maharashtra,P2P,Food,SUCCESS,0,none
+T0007181,2026-01-14 00:13:06,U0541,R0427,299.57,Bank_E,Bank_C,D0541_1,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0007202,2026-01-14 01:23:24,U1576,R1726,462.06,Bank_B,Bank_E,D1576_2,Android,Chennai,Tamil Nadu,Recharge,Other,SUCCESS,0,none
+T0007206,2026-01-14 01:31:27,U0115,R5595,276.06,Bank_D,Bank_A,D0115_1,Android,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0007531,2026-01-14 15:57:17,U1105,R1186,2018.52,Bank_B,Bank_E,D1105_1,Android,Jaipur,Rajasthan,P2M,Food,SUCCESS,0,none
+T0007625,2026-01-14 19:43:16,U1150,R3362,214.12,Bank_A,Bank_C,D1150_1,Android,Hyderabad,Telangana,BillPay,Other,SUCCESS,0,none
+T0007683,2026-01-14 21:58:23,U0693,R0992,178.05,Bank_D,Bank_A,D0693_1,Android,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0007754,2026-01-15 00:57:04,U0884,R1761,1460.14,Bank_C,Bank_C,D0884_2,Android,Kolkata,West Bengal,P2M,Shopping,SUCCESS,0,none
+T0007822,2026-01-15 04:17:03,U1035,R1900,428.91,Bank_D,Bank_E,D1035_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0007823,2026-01-15 04:18:13,U0028,R2868,291.9,Bank_D,Bank_C,D0028_2,Android,Pune,Maharashtra,P2P,Food,SUCCESS,0,none
+T0007842,2026-01-15 05:00:43,U1303,R0383,173.26,Bank_D,Bank_A,D1303_1,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0007882,2026-01-15 06:41:47,U1982,R2881,154.19,Bank_A,Bank_B,D1982_2,Android,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0007892,2026-01-15 07:10:52,U0888,R1963,201.67,Bank_D,Bank_C,NEW_8260,Android,Jaipur,Rajasthan,P2M,Groceries,FAILED,0,none
+T0007906,2026-01-15 07:48:38,U0266,R3362,796.59,Bank_D,Bank_C,D0266_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0008038,2026-01-15 13:25:05,U1864,R3973,1110.29,Bank_D,Bank_A,D1864_2,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0008086,2026-01-15 15:22:21,U0702,R2460,3080.56,Bank_E,Bank_E,D0702_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0008231,2026-01-15 21:47:39,U0550,R0882,149.83,Bank_D,Bank_B,D0550_1,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0008271,2026-01-15 23:51:38,U1608,R3434,141.25,Bank_A,Bank_A,D1608_1,Android,Kolkata,West Bengal,P2M,Utilities,FAILED,0,none
+T0008467,2026-01-16 09:00:27,U1429,R0079,326.19,Bank_D,Bank_E,D1429_2,Android,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0008565,2026-01-16 13:04:26,U1312,R1572,498.08,Bank_E,Bank_C,D1312_1,Android,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0008691,2026-01-16 18:46:19,U0418,R3396,227.2,Bank_D,Bank_B,D0418_2,iOS,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0008719,2026-01-16 19:43:45,U0071,R0617,473.54,Bank_A,Bank_B,D0071_1,iOS,Kolkata,West Bengal,BillPay,Travel,SUCCESS,0,none
+T0008740,2026-01-16 20:39:51,U1855,R2374,232.33,Bank_A,Bank_A,D1855_2,Android,Kolkata,West Bengal,Recharge,Travel,SUCCESS,0,none
+T0008837,2026-01-17 01:22:08,U1408,R2690,430.97,Bank_C,Bank_B,D1408_1,Android,Mumbai,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0008884,2026-01-17 03:37:02,U1576,R3710,258.64,Bank_C,Bank_B,D1576_2,Android,Chennai,Tamil Nadu,BillPay,Food,SUCCESS,0,none
+T0008894,2026-01-17 04:08:14,U1428,R0698,1853.27,Bank_D,Bank_B,D1428_1,Android,Hyderabad,Telangana,P2M,Shopping,SUCCESS,0,none
+T0008995,2026-01-17 08:25:16,U0491,R3801,1655.22,Bank_E,Bank_B,D0491_1,iOS,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0009059,2026-01-17 11:10:24,U0205,R0975,362.75,Bank_B,Bank_E,NEW_57724,iOS,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0009226,2026-01-17 18:35:18,U1690,R1165,124.07,Bank_A,Bank_B,D1690_1,Android,Chennai,Tamil Nadu,P2P,Utilities,SUCCESS,0,none
+T0009283,2026-01-17 20:52:55,U0101,R3692,410.26,Bank_A,Bank_D,D0101_1,Android,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0009332,2026-01-17 23:03:47,U1160,R3511,285.94,Bank_D,Bank_E,D1160_1,Android,Mumbai,Maharashtra,P2P,Other,SUCCESS,0,none
+T0009406,2026-01-18 02:38:01,U0063,R4217,329.91,Bank_B,Bank_C,D0063_1,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0009414,2026-01-18 02:56:11,U1440,R1069,1067.86,Bank_B,Bank_C,D1440_1,Android,Hyderabad,Telangana,P2M,Utilities,SUCCESS,0,none
+T0009428,2026-01-18 03:34:35,U1955,R3858,1137.27,Bank_B,Bank_C,D1955_2,iOS,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0009507,2026-01-18 07:29:15,U0702,R2243,4239.45,Bank_D,Bank_D,D0702_1,Android,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0009524,2026-01-18 07:49:13,U1383,R1365,203.14,Bank_C,Bank_B,D1383_2,iOS,Jaipur,Rajasthan,P2P,Other,SUCCESS,0,none
+T0009614,2026-01-18 12:36:04,U1886,R3132,429.4,Bank_C,Bank_A,D1886_1,Android,Pune,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0009648,2026-01-18 14:02:16,U1487,R1054,1657.34,Bank_B,Bank_A,D1487_1,Android,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0009802,2026-01-18 20:10:14,U1255,R0504,1101.01,Bank_B,Bank_C,D1255_1,iOS,Chennai,Tamil Nadu,P2P,Travel,SUCCESS,0,none
+T0009808,2026-01-18 20:23:34,U0100,R1217,242.45,Bank_A,Bank_A,D0100_1,Android,Mumbai,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0009936,2026-01-19 01:18:53,U0570,R4852,163.07,Bank_E,Bank_E,D0570_1,iOS,Kolkata,West Bengal,P2P,Shopping,SUCCESS,0,none
+T0009958,2026-01-19 02:29:04,U0965,R1126,166.07,Bank_E,Bank_E,D0965_1,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0010075,2026-01-19 08:25:55,U0806,R0360,246.13,Bank_C,Bank_B,D0806_2,iOS,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0010193,2026-01-19 13:25:56,U0914,R0525,1300.66,Bank_D,Bank_B,D0914_1,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0010431,2026-01-19 23:26:19,U1522,R1519,110.96,Bank_B,Bank_C,D1522_1,Android,Chennai,Tamil Nadu,P2M,Healthcare,SUCCESS,1,location_change
+T0010466,2026-01-20 00:53:25,U1880,R2568,1737.93,Bank_D,Bank_E,D1880_1,iOS,Mumbai,Maharashtra,P2M,Food,SUCCESS,0,none
+T0010528,2026-01-20 03:01:45,U0835,R0087,189.25,Bank_E,Bank_B,D0835_1,Android,Kolkata,West Bengal,P2M,Utilities,SUCCESS,0,none
+T0010558,2026-01-20 04:18:16,U0599,R4002,1860.66,Bank_E,Bank_E,NEW_56481,Android,Chennai,Tamil Nadu,P2P,Travel,SUCCESS,1,new_device
+T0010578,2026-01-20 05:01:49,U0698,R1752,837.01,Bank_A,Bank_D,D0698_1,Android,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,0,none
+T0010724,2026-01-20 11:39:47,U0002,R1180,233.38,Bank_D,Bank_B,D0002_1,iOS,Chennai,Tamil Nadu,BillPay,Groceries,SUCCESS,0,none
+T0010756,2026-01-20 13:01:34,U1672,R2630,28237.28,Bank_C,Bank_E,D1672_2,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,0,none
+T0010804,2026-01-20 14:45:13,U1614,R1269,265.22,Bank_A,Bank_D,D1614_2,Android,Kolkata,West Bengal,P2M,Healthcare,SUCCESS,0,none
+T0010811,2026-01-20 14:55:03,U0248,R0825,426.76,Bank_D,Bank_D,D0248_1,Android,Delhi,Delhi,BillPay,Groceries,SUCCESS,0,none
+T0010823,2026-01-20 15:22:39,U0606,R2032,986.68,Bank_C,Bank_A,D0606_2,Android,Kolkata,West Bengal,Recharge,Utilities,SUCCESS,0,none
+T0010824,2026-01-20 15:22:46,U0294,R2343,125.11,Bank_D,Bank_C,D0294_1,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0011077,2026-01-21 01:51:54,U1887,R0508,1187.32,Bank_C,Bank_E,D1887_1,Android,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0011265,2026-01-21 09:26:44,U0984,R0482,2616.18,Bank_C,Bank_D,D0984_1,Android,Jaipur,Rajasthan,Recharge,Travel,SUCCESS,0,none
+T0011322,2026-01-21 11:32:53,U1730,R1411,197.25,Bank_E,Bank_E,D1730_1,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0011374,2026-01-21 15:10:35,U1663,R1946,270.18,Bank_C,Bank_C,D1663_1,iOS,Pune,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0011439,2026-01-21 17:58:25,U0597,R2815,1069.5,Bank_D,Bank_D,D0597_1,Android,Bengaluru,Karnataka,BillPay,Utilities,SUCCESS,0,none
+T0011450,2026-01-21 18:28:04,U1166,R1037,1926.37,Bank_B,Bank_B,NEW_10450,Android,Jaipur,Rajasthan,BillPay,Healthcare,SUCCESS,0,none
+T0011479,2026-01-21 20:06:13,U0700,R3990,266.15,Bank_D,Bank_D,D0700_1,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0011539,2026-01-21 22:41:30,U0820,R3808,1745.26,Bank_C,Bank_B,D0820_1,iOS,Jaipur,Rajasthan,P2M,Utilities,SUCCESS,0,none
+T0011646,2026-01-22 03:44:44,U0360,R0983,277.88,Bank_D,Bank_C,D0360_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0011712,2026-01-22 06:25:04,U1944,R2137,502.32,Bank_B,Bank_E,D1944_1,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0011731,2026-01-22 07:07:55,U0692,R2807,14421.8,Bank_C,Bank_B,D0692_1,Android,Jaipur,Rajasthan,Recharge,Travel,SUCCESS,0,none
+T0011733,2026-01-22 07:10:58,U0282,R1176,1014.62,Bank_B,Bank_D,D0282_2,Android,Mumbai,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0011762,2026-01-22 08:22:58,U0104,R2866,362.04,Bank_C,Bank_D,D0104_2,Android,Delhi,Delhi,Recharge,Healthcare,SUCCESS,0,none
+T0011869,2026-01-22 13:56:06,U1433,R0022,769.27,Bank_E,Bank_C,D1433_1,Android,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0011981,2026-01-22 18:54:34,U0655,R0941,1041.1,Bank_D,Bank_A,D0655_1,Android,Delhi,Delhi,P2M,Healthcare,FAILED,0,none
+T0012002,2026-01-22 19:34:25,U1429,R0079,928.7,Bank_D,Bank_D,D1429_1,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0012006,2026-01-22 19:41:41,U0819,R5954,8286.65,Bank_B,Bank_B,D0819_2,iOS,Hyderabad,Telangana,Recharge,Food,SUCCESS,0,none
+T0012008,2026-01-22 19:43:51,U0737,R0424,363.07,Bank_B,Bank_C,D0737_1,iOS,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0012054,2026-01-22 21:25:11,U1144,R0923,5751.95,Bank_E,Bank_C,D1144_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0012084,2026-01-22 22:29:24,U0133,R1735,8.37,Bank_D,Bank_D,D0133_1,Android,Hyderabad,Telangana,P2M,Other,FAILED,0,none
+T0012145,2026-01-23 00:55:21,U0698,R1777,287.17,Bank_C,Bank_E,D0698_2,Android,Jaipur,Rajasthan,P2M,Food,SUCCESS,0,none
+T0012148,2026-01-23 01:03:12,U1369,R0664,6244.41,Bank_E,Bank_A,D1369_2,Android,Jaipur,Rajasthan,BillPay,Utilities,SUCCESS,0,none
+T0012188,2026-01-23 02:43:10,U0911,R3365,499.05,Bank_C,Bank_B,D0911_1,Android,Hyderabad,Telangana,BillPay,Utilities,SUCCESS,0,none
+T0012302,2026-01-23 07:45:01,U0702,R3055,2748.83,Bank_D,Bank_A,D0702_1,Android,Bengaluru,Karnataka,Recharge,Healthcare,SUCCESS,0,none
+T0012448,2026-01-23 13:29:30,U0104,R1366,616.18,Bank_D,Bank_D,D0104_1,Android,Delhi,Delhi,BillPay,Utilities,SUCCESS,0,none
+T0012610,2026-01-23 20:49:05,U1314,R5946,746.16,Bank_A,Bank_E,D1314_1,iOS,Jaipur,Rajasthan,P2M,Travel,SUCCESS,0,none
+T0012636,2026-01-23 21:56:36,U0063,R0090,146.32,Bank_B,Bank_C,D0063_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0012654,2026-01-23 22:52:07,U1264,R0104,102.04,Bank_B,Bank_D,D1264_1,iOS,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0012729,2026-01-24 01:33:24,U1645,R2141,182.1,Bank_E,Bank_A,D1645_1,Android,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0012754,2026-01-24 02:33:34,U1806,R3885,844.83,Bank_C,Bank_C,D1806_2,Android,Hyderabad,Telangana,P2P,Groceries,SUCCESS,0,none
+T0012774,2026-01-24 03:34:18,U1276,R2299,99.8,Bank_B,Bank_C,D1276_1,iOS,Jaipur,Rajasthan,P2P,Other,FAILED,0,none
+T0012852,2026-01-24 06:52:04,U1607,R1703,687.45,Bank_C,Bank_C,D1607_1,Android,Jaipur,Rajasthan,P2P,Other,FAILED,0,none
+T0012970,2026-01-24 11:45:14,U1642,R3259,487.74,Bank_E,Bank_B,D1642_1,Android,Hyderabad,Telangana,P2M,Travel,SUCCESS,0,none
+T0012996,2026-01-24 12:53:51,U1340,R5640,230.85,Bank_C,Bank_E,D1340_2,iOS,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0013099,2026-01-24 17:43:03,U0260,R0002,326.85,Bank_C,Bank_E,D0260_1,iOS,Kolkata,West Bengal,BillPay,Healthcare,SUCCESS,0,none
+T0013155,2026-01-24 19:50:26,U1128,R1362,2811.32,Bank_E,Bank_C,D1128_2,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0013268,2026-01-25 00:18:15,U0450,R1836,153.95,Bank_A,Bank_D,D0450_1,Android,Chennai,Tamil Nadu,P2P,Utilities,SUCCESS,0,none
+T0013357,2026-01-25 04:14:21,U1752,R1479,3357.3,Bank_A,Bank_A,D1752_1,Android,Hyderabad,Telangana,BillPay,Healthcare,SUCCESS,0,none
+T0013414,2026-01-25 06:46:16,U0318,R1479,242.02,Bank_B,Bank_E,D0318_2,Android,Mumbai,Maharashtra,P2P,Groceries,FAILED,0,none
+T0013467,2026-01-25 09:04:43,U1076,R3228,1129.03,Bank_C,Bank_D,D1076_2,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0013472,2026-01-25 09:11:27,U1045,R3517,1205.45,Bank_D,Bank_D,D1045_1,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0013479,2026-01-25 09:32:44,U1546,R3487,1955.42,Bank_B,Bank_C,D1546_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0013520,2026-01-25 11:00:55,U1637,R0340,574.5,Bank_A,Bank_B,D1637_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,1,subtle
+T0013539,2026-01-25 11:44:54,U0475,R1404,111.81,Bank_E,Bank_A,D0475_2,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0013625,2026-01-25 15:46:54,U1765,R1189,284.3,Bank_D,Bank_A,D1765_1,Android,Pune,Maharashtra,Recharge,Groceries,SUCCESS,0,none
+T0013650,2026-01-25 16:31:07,U1386,R3595,176.56,Bank_B,Bank_B,D1386_1,iOS,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0013662,2026-01-25 17:21:49,U1123,R1675,101.56,Bank_E,Bank_C,D1123_1,Android,Bengaluru,Karnataka,BillPay,Other,SUCCESS,0,none
+T0013702,2026-01-25 19:03:51,U0002,R3025,356.98,Bank_A,Bank_C,NEW_6480,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0013763,2026-01-25 21:36:18,U1854,R2033,2354.64,Bank_A,Bank_E,D1854_2,Android,Mumbai,Maharashtra,Recharge,Travel,SUCCESS,0,none
+T0013872,2026-01-26 02:11:03,U1338,R0948,165.04,Bank_C,Bank_B,D1338_1,Android,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0014074,2026-01-26 10:19:51,U1984,R3418,369.86,Bank_D,Bank_E,D1984_1,Android,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0014159,2026-01-26 13:22:41,U0544,R3520,547.64,Bank_D,Bank_E,D0544_1,Android,Delhi,Delhi,BillPay,Travel,SUCCESS,0,none
+T0014166,2026-01-26 13:41:38,U0235,R1478,471.4,Bank_A,Bank_D,D0235_1,Android,Mumbai,Maharashtra,BillPay,Utilities,SUCCESS,0,none
+T0014171,2026-01-26 13:48:02,U1150,R0554,206.9,Bank_C,Bank_D,NEW_23290,iOS,Hyderabad,Telangana,BillPay,Shopping,SUCCESS,0,none
+T0014344,2026-01-26 21:34:12,U1868,R1944,12132.75,Bank_A,Bank_B,D1868_1,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0014488,2026-01-27 03:56:41,U1109,R1378,1492.5,Bank_B,Bank_A,D1109_1,Android,Bengaluru,Karnataka,P2P,Travel,FAILED,0,none
+T0014493,2026-01-27 04:08:45,U0155,R0669,530.0,Bank_C,Bank_B,D0155_2,Android,Mumbai,Maharashtra,BillPay,Food,SUCCESS,0,none
+T0014618,2026-01-27 09:21:12,U0593,R4822,210.62,Bank_C,Bank_B,D0593_1,Android,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0014645,2026-01-27 10:34:37,U0265,R1025,281.15,Bank_E,Bank_C,D0265_1,Android,Kolkata,West Bengal,BillPay,Healthcare,SUCCESS,0,none
+T0014710,2026-01-27 13:32:52,U0099,R0389,18959.65,Bank_A,Bank_D,D0099_1,Android,Jaipur,Rajasthan,Recharge,Shopping,SUCCESS,0,none
+T0014758,2026-01-27 16:15:04,U0042,R2495,1561.99,Bank_E,Bank_E,D0042_2,Android,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,0,none
+T0014832,2026-01-27 19:54:43,U0029,R2690,4454.12,Bank_E,Bank_D,NEW_46625,Android,Mumbai,Maharashtra,P2M,Shopping,SUCCESS,1,mixed
+T0015080,2026-01-28 06:18:20,U0296,R1450,405.6,Bank_D,Bank_B,D0296_1,Android,Hyderabad,Telangana,P2M,Groceries,SUCCESS,0,none
+T0015119,2026-01-28 08:12:34,U0252,R2131,3253.23,Bank_B,Bank_B,D0252_2,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0015178,2026-01-28 11:13:25,U0343,R1020,3304.35,Bank_C,Bank_C,D0343_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0015243,2026-01-28 13:42:17,U0426,R1536,362.47,Bank_D,Bank_C,D0426_1,Android,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0015268,2026-01-28 14:41:03,U1292,R2407,1845.83,Bank_A,Bank_C,D1292_1,iOS,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0015270,2026-01-28 14:45:33,U0352,R4500,5804.93,Bank_B,Bank_C,D0352_2,Android,Mumbai,Maharashtra,Recharge,Food,SUCCESS,0,none
+T0015292,2026-01-28 15:36:05,U0102,R4308,1509.28,Bank_D,Bank_A,D0102_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0015385,2026-01-28 19:05:29,U0596,R3444,1093.66,Bank_B,Bank_E,D0596_1,iOS,Kolkata,West Bengal,P2M,Healthcare,SUCCESS,0,none
+T0015388,2026-01-28 19:08:36,U1175,R1914,328.37,Bank_A,Bank_A,D1175_1,Android,Bengaluru,Karnataka,P2P,Travel,SUCCESS,0,none
+T0015432,2026-01-28 21:17:10,U1886,R2980,1522.97,Bank_B,Bank_C,D1886_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0015467,2026-01-28 23:00:46,U1482,R3641,467.81,Bank_A,Bank_A,D1482_1,iOS,Bengaluru,Karnataka,BillPay,Utilities,FAILED,0,none
+T0015595,2026-01-29 05:18:30,U0459,R0712,89.73,Bank_A,Bank_B,D0459_1,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0015602,2026-01-29 05:32:50,U0974,R2449,87.44,Bank_A,Bank_C,D0974_2,Android,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0015657,2026-01-29 07:39:51,U0469,R1139,704.35,Bank_B,Bank_E,D0469_2,iOS,Kolkata,West Bengal,P2P,Shopping,SUCCESS,0,none
+T0015728,2026-01-29 10:29:32,U0756,R1340,758.51,Bank_C,Bank_A,D0756_2,Android,Mumbai,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0015758,2026-01-29 11:56:34,U0879,R5130,258.68,Bank_C,Bank_E,D0879_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0015790,2026-01-29 13:35:06,U1468,R2332,3224.67,Bank_A,Bank_E,D1468_2,Android,Pune,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0015814,2026-01-29 14:39:46,U0002,R0905,457.87,Bank_B,Bank_B,D0002_1,Android,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0015826,2026-01-29 15:06:46,U1864,R2776,2648.92,Bank_B,Bank_C,D1864_1,Android,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0015909,2026-01-29 19:23:48,U1742,R1873,1189.32,Bank_A,Bank_B,D1742_2,iOS,Mumbai,Maharashtra,BillPay,Other,SUCCESS,0,none
+T0015923,2026-01-29 20:04:34,U1387,R1910,2377.66,Bank_E,Bank_A,D1387_2,Android,Mumbai,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0015941,2026-01-29 20:43:56,U1592,R3233,758.85,Bank_C,Bank_B,D1592_1,Android,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0015981,2026-01-29 22:25:30,U1835,R3616,320.14,Bank_B,Bank_E,D1835_1,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0016287,2026-01-30 11:50:22,U0061,R3656,2522.75,Bank_E,Bank_C,D0061_1,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0016387,2026-01-30 15:58:06,U1547,R0883,2004.5,Bank_A,Bank_B,D1547_1,Android,Hyderabad,Telangana,P2P,Groceries,SUCCESS,0,none
+T0016400,2026-01-30 16:35:52,U0828,R0512,100.97,Bank_C,Bank_D,D0828_1,Android,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0016581,2026-01-31 00:27:50,U1378,R1060,4525.03,Bank_A,Bank_D,D1378_2,Android,Mumbai,Maharashtra,P2M,Food,SUCCESS,0,none
+T0016824,2026-01-31 11:01:21,U0282,R3963,434.61,Bank_D,Bank_E,D0282_2,Android,Mumbai,Maharashtra,Recharge,Travel,SUCCESS,0,none
+T0016958,2026-01-31 17:30:41,U0433,R2012,56.21,Bank_A,Bank_A,D0433_2,Android,Hyderabad,Telangana,P2M,Utilities,SUCCESS,0,none
+T0017024,2026-01-31 20:23:25,U1474,R3123,171.37,Bank_A,Bank_E,D1474_2,Android,Delhi,Delhi,Recharge,Utilities,SUCCESS,0,none
+T0017241,2026-02-01 07:19:16,U0212,R3726,1520.62,Bank_A,Bank_A,D0212_1,Android,Hyderabad,Telangana,P2P,Groceries,SUCCESS,0,none
+T0017253,2026-02-01 07:42:04,U1185,R1936,450.42,Bank_C,Bank_B,D1185_2,iOS,Chennai,Tamil Nadu,BillPay,Travel,SUCCESS,0,none
+T0017373,2026-02-01 12:29:37,U0702,R0347,3917.68,Bank_E,Bank_B,D0702_1,Android,Bengaluru,Karnataka,Recharge,Groceries,SUCCESS,0,none
+T0017379,2026-02-01 12:51:20,U1865,R3372,114.75,Bank_C,Bank_B,D1865_1,Android,Bengaluru,Karnataka,BillPay,Food,SUCCESS,0,none
+T0017522,2026-02-01 18:31:36,U1997,R2098,253.82,Bank_E,Bank_E,D1997_1,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0017524,2026-02-01 18:34:04,U0616,R1020,187.66,Bank_D,Bank_B,D0616_1,Android,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0017543,2026-02-01 19:02:45,U0992,R4166,320.49,Bank_E,Bank_A,D0992_1,Android,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0017747,2026-02-02 02:51:08,U0615,R4997,50.7,Bank_C,Bank_B,D0615_2,Android,Jaipur,Rajasthan,P2M,Other,SUCCESS,0,none
+T0017805,2026-02-02 05:37:23,U0242,R1394,358.14,Bank_B,Bank_E,D0242_1,iOS,Kolkata,West Bengal,P2P,Healthcare,SUCCESS,0,none
+T0017821,2026-02-02 06:13:24,U1135,R4678,392.08,Bank_E,Bank_D,D1135_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0017841,2026-02-02 06:56:12,U0125,R3902,133.96,Bank_E,Bank_E,D0125_1,Android,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0017894,2026-02-02 08:56:10,U1881,R3966,531.37,Bank_D,Bank_A,D1881_2,iOS,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0018049,2026-02-02 14:51:53,U0828,R0512,338.6,Bank_B,Bank_A,D0828_1,Android,Delhi,Delhi,BillPay,Utilities,FAILED,0,none
+T0018083,2026-02-02 15:54:08,U1713,R0823,2114.42,Bank_B,Bank_B,D1713_1,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0018184,2026-02-02 20:08:21,U0389,R0896,877.11,Bank_E,Bank_E,D0389_1,Android,Kolkata,West Bengal,P2P,Healthcare,SUCCESS,0,none
+T0018276,2026-02-03 00:03:40,U1765,R2340,215.54,Bank_A,Bank_A,D1765_1,iOS,Pune,Maharashtra,P2P,Food,SUCCESS,0,none
+T0018316,2026-02-03 01:22:14,U1853,R2019,1799.25,Bank_A,Bank_E,D1853_2,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0018354,2026-02-03 03:17:45,U0529,R3831,186.5,Bank_B,Bank_B,D0529_2,Android,Kolkata,West Bengal,BillPay,Groceries,SUCCESS,0,none
+T0018387,2026-02-03 04:36:36,U1814,R4732,528.43,Bank_E,Bank_B,D1814_1,Android,Mumbai,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0018472,2026-02-03 08:47:39,U0760,R0604,709.17,Bank_B,Bank_C,D0760_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0018495,2026-02-03 09:41:43,U1651,R3389,57.99,Bank_D,Bank_A,D1651_1,Android,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0018553,2026-02-03 12:28:03,U1264,R1192,391.15,Bank_A,Bank_C,D1264_1,iOS,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0018578,2026-02-03 14:03:11,U1582,R1975,1086.66,Bank_B,Bank_C,D1582_2,Android,Mumbai,Maharashtra,BillPay,Other,SUCCESS,0,none
+T0018601,2026-02-03 15:16:01,U1440,R4315,447.26,Bank_C,Bank_E,D1440_1,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0018620,2026-02-03 16:06:38,U1076,R0445,113.23,Bank_E,Bank_D,D1076_2,Android,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0018628,2026-02-03 16:35:27,U0828,R0338,40.98,Bank_C,Bank_A,D0828_2,iOS,Delhi,Delhi,P2M,Shopping,SUCCESS,0,none
+T0018763,2026-02-03 21:33:19,U0387,R1423,3929.03,Bank_A,Bank_E,D0387_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0018864,2026-02-04 02:16:46,U1864,R2776,3121.73,Bank_B,Bank_A,D1864_2,Android,Bengaluru,Karnataka,P2P,Utilities,SUCCESS,0,none
+T0019246,2026-02-04 19:49:29,U1494,R3412,1370.96,Bank_E,Bank_B,D1494_1,Android,Mumbai,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0019487,2026-02-05 06:25:24,U0357,R1601,600.81,Bank_A,Bank_C,D0357_1,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0019937,2026-02-06 02:35:52,U1378,R0751,286.07,Bank_D,Bank_D,D1378_2,Android,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0020034,2026-02-06 06:54:48,U1288,R5014,874.28,Bank_E,Bank_A,D1288_2,Android,Delhi,Delhi,BillPay,Healthcare,SUCCESS,1,subtle
+T0020058,2026-02-06 08:18:18,U0625,R1194,412.47,Bank_C,Bank_A,D0625_1,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0020074,2026-02-06 08:45:10,U0537,R4364,1610.19,Bank_E,Bank_E,D0537_1,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,1,new_receiver_amount
+T0020084,2026-02-06 09:11:39,U1694,R0561,4611.76,Bank_D,Bank_C,D1694_1,Android,Hyderabad,Telangana,Recharge,Utilities,FAILED,0,none
+T0020147,2026-02-06 12:09:44,U1625,R1953,2262.9,Bank_B,Bank_B,D1625_1,iOS,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0020269,2026-02-06 17:36:30,U0498,R3561,532.52,Bank_D,Bank_C,D0498_1,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0020305,2026-02-06 19:24:30,U0606,R0939,675.87,Bank_B,Bank_D,D0606_1,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0020396,2026-02-06 23:03:33,U1636,R3656,866.73,Bank_A,Bank_D,D1636_1,Android,Pune,Maharashtra,Recharge,Utilities,SUCCESS,0,none
+T0020816,2026-02-07 17:37:56,U1083,R0772,121.48,Bank_A,Bank_C,D1083_1,Android,Delhi,Delhi,P2P,Groceries,SUCCESS,0,none
+T0020819,2026-02-07 17:43:51,U1645,R2141,85.92,Bank_E,Bank_D,D1645_1,iOS,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0020835,2026-02-07 18:16:37,U0886,R5725,922.68,Bank_C,Bank_D,D0886_1,iOS,Pune,Maharashtra,P2P,Shopping,SUCCESS,1,subtle
+T0020914,2026-02-07 21:24:12,U1288,R2947,785.6,Bank_D,Bank_B,D1288_1,Android,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0020934,2026-02-07 22:58:33,U0294,R3172,536.22,Bank_D,Bank_B,D0294_1,Android,Kolkata,West Bengal,P2P,Groceries,SUCCESS,0,none
+T0020965,2026-02-08 00:19:45,U1134,R3137,7844.66,Bank_C,Bank_D,D1134_2,Android,Hyderabad,Telangana,P2M,Utilities,SUCCESS,0,none
+T0021070,2026-02-08 03:44:52,U0320,R3804,604.83,Bank_D,Bank_A,D0320_1,Android,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0021110,2026-02-08 05:40:12,U1668,R0120,22397.4,Bank_D,Bank_D,D1668_1,Android,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0021124,2026-02-08 06:37:50,U0974,R3832,389.79,Bank_D,Bank_D,D0974_1,Android,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0021236,2026-02-08 10:48:32,U1611,R2162,505.33,Bank_E,Bank_B,D1611_1,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0021316,2026-02-08 14:40:17,U0109,R2511,52.55,Bank_D,Bank_E,D0109_1,Android,Kolkata,West Bengal,BillPay,Food,SUCCESS,0,none
+T0021351,2026-02-08 16:27:18,U0242,R1394,340.13,Bank_B,Bank_B,D0242_1,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0021375,2026-02-08 17:49:36,U0338,R2567,125.81,Bank_A,Bank_D,D0338_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0021437,2026-02-08 20:45:35,U1527,R0890,284.32,Bank_E,Bank_E,D1527_2,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0021559,2026-02-09 01:45:04,U0700,R1708,1035.31,Bank_C,Bank_C,D0700_2,iOS,Bengaluru,Karnataka,Recharge,Travel,SUCCESS,0,none
+T0021725,2026-02-09 09:03:24,U0713,R2811,1209.97,Bank_B,Bank_B,D0713_1,Android,Hyderabad,Telangana,P2P,Healthcare,SUCCESS,0,none
+T0021780,2026-02-09 10:43:33,U0609,R1623,421.65,Bank_A,Bank_D,D0609_1,Android,Bengaluru,Karnataka,P2P,Food,SUCCESS,0,none
+T0021803,2026-02-09 11:33:28,U1980,R0730,192.83,Bank_D,Bank_A,D1980_1,iOS,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0021857,2026-02-09 13:40:21,U1626,R1838,669.12,Bank_C,Bank_D,D1626_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0021880,2026-02-09 14:26:00,U1257,R1054,65.15,Bank_C,Bank_A,D1257_1,iOS,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0021912,2026-02-09 15:50:21,U1262,R1137,1402.68,Bank_A,Bank_B,D1262_1,Android,Kolkata,West Bengal,Recharge,Food,SUCCESS,0,none
+T0022019,2026-02-09 20:25:24,U0418,R0845,1531.91,Bank_C,Bank_B,D0418_2,Android,Jaipur,Rajasthan,P2M,Healthcare,SUCCESS,0,none
+T0022022,2026-02-09 20:30:16,U1744,R3366,2577.69,Bank_C,Bank_B,D1744_1,iOS,Chennai,Tamil Nadu,P2M,Food,SUCCESS,0,none
+T0022063,2026-02-09 22:15:28,U1752,R5914,1103.75,Bank_E,Bank_D,D1752_2,Android,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0022080,2026-02-09 22:47:29,U1369,R0664,362.24,Bank_C,Bank_B,D1369_1,iOS,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,0,none
+T0022225,2026-02-10 05:05:05,U1178,R4565,1209.38,Bank_E,Bank_C,D1178_2,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0022226,2026-02-10 05:08:50,U1159,R3317,438.19,Bank_E,Bank_B,D1159_1,iOS,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0022368,2026-02-10 11:09:43,U0218,R3469,246.47,Bank_A,Bank_E,D0218_1,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0022394,2026-02-10 12:10:02,U0079,R0586,594.24,Bank_C,Bank_D,D0079_1,Android,Mumbai,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0022477,2026-02-10 15:10:16,U0347,R1437,806.21,Bank_B,Bank_D,D0347_1,Android,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0022493,2026-02-10 15:53:00,U1228,R2892,128.48,Bank_C,Bank_A,D1228_1,iOS,Jaipur,Rajasthan,P2M,Healthcare,SUCCESS,0,none
+T0022754,2026-02-11 03:19:23,U0327,R1344,247.25,Bank_A,Bank_A,NEW_60981,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0022811,2026-02-11 06:18:56,U0777,R2677,997.15,Bank_E,Bank_C,D0777_1,Android,Bengaluru,Karnataka,P2P,Utilities,SUCCESS,0,none
+T0022836,2026-02-11 07:27:17,U1645,R0491,310.5,Bank_E,Bank_D,D1645_1,Android,Delhi,Delhi,P2M,Food,SUCCESS,0,none
+T0022916,2026-02-11 10:16:28,U1040,R2432,2940.28,Bank_C,Bank_E,NEW_12511,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0022950,2026-02-11 12:02:54,U1636,R0749,725.01,Bank_B,Bank_B,D1636_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0022986,2026-02-11 13:47:09,U1864,R2776,3362.17,Bank_B,Bank_C,D1864_1,Android,Bengaluru,Karnataka,BillPay,Groceries,SUCCESS,0,none
+T0023007,2026-02-11 14:35:58,U0756,R1554,362.43,Bank_A,Bank_B,D0756_2,Android,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0023030,2026-02-11 15:39:08,U1647,R5197,251.33,Bank_C,Bank_C,D1647_1,iOS,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0023299,2026-02-12 03:22:09,U0786,R2171,3656.08,Bank_D,Bank_C,D0786_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0023354,2026-02-12 05:56:42,U0734,R3813,59.83,Bank_E,Bank_B,D0734_1,Android,Pune,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0023416,2026-02-12 08:15:43,U0412,R2299,741.89,Bank_A,Bank_B,D0412_1,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0023445,2026-02-12 09:44:01,U0425,R4476,317.6,Bank_D,Bank_A,D0425_1,Android,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0023450,2026-02-12 09:53:46,U0383,R0424,1853.83,Bank_E,Bank_C,D0383_2,Android,Bengaluru,Karnataka,P2M,Travel,SUCCESS,0,none
+T0023464,2026-02-12 10:14:08,U1487,R1429,1141.87,Bank_D,Bank_E,D1487_1,Android,Bengaluru,Karnataka,P2M,Other,SUCCESS,0,none
+T0023494,2026-02-12 12:10:13,U0702,R2072,1900.11,Bank_E,Bank_A,D0702_1,Android,Bengaluru,Karnataka,Recharge,Shopping,SUCCESS,0,none
+T0023538,2026-02-12 13:49:15,U1949,R1401,532.66,Bank_D,Bank_C,D1949_1,Android,Mumbai,Maharashtra,BillPay,Shopping,SUCCESS,0,none
+T0023594,2026-02-12 16:01:05,U1680,R2765,703.22,Bank_D,Bank_B,D1680_1,iOS,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0023680,2026-02-12 20:06:55,U1034,R2376,1938.42,Bank_E,Bank_D,D1034_1,iOS,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0023686,2026-02-12 20:34:54,U1676,R3066,413.16,Bank_D,Bank_C,D1676_1,Android,Pune,Maharashtra,P2P,Travel,FAILED,0,none
+T0023691,2026-02-12 20:47:37,U1322,R1568,984.77,Bank_E,Bank_D,D1322_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0023731,2026-02-12 22:47:54,U1908,R2535,1190.63,Bank_A,Bank_C,D1908_2,Android,Kolkata,West Bengal,Recharge,Utilities,SUCCESS,0,none
+T0023860,2026-02-13 04:17:57,U1369,R2795,411.27,Bank_B,Bank_B,D1369_2,Android,Jaipur,Rajasthan,BillPay,Travel,SUCCESS,0,none
+T0023871,2026-02-13 04:37:47,U1296,R1460,63.54,Bank_E,Bank_C,D1296_1,iOS,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0023922,2026-02-13 06:41:22,U1305,R2647,440.14,Bank_A,Bank_A,D1305_2,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0024115,2026-02-13 15:15:58,U0590,R4884,666.45,Bank_A,Bank_B,D0590_1,Android,Kolkata,West Bengal,P2M,Healthcare,SUCCESS,0,none
+T0024122,2026-02-13 15:31:52,U1771,R3443,200.8,Bank_B,Bank_E,D1771_1,Android,Jaipur,Rajasthan,BillPay,Food,SUCCESS,0,none
+T0024149,2026-02-13 16:48:54,U1822,R5776,2066.33,Bank_E,Bank_E,D1822_2,Android,Bengaluru,Karnataka,Recharge,Healthcare,SUCCESS,0,none
+T0024156,2026-02-13 17:07:54,U0378,R1551,226.46,Bank_E,Bank_C,D0378_2,iOS,Pune,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0024280,2026-02-13 21:58:57,U0133,R1735,92.42,Bank_B,Bank_B,D0133_1,Android,Hyderabad,Telangana,BillPay,Groceries,SUCCESS,0,none
+T0024382,2026-02-14 02:38:29,U1814,R4536,5626.17,Bank_D,Bank_E,D1814_1,Android,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0024391,2026-02-14 03:02:49,U1100,R2991,91.39,Bank_A,Bank_D,D1100_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0024455,2026-02-14 05:12:01,U0100,R1217,754.92,Bank_A,Bank_B,D0100_1,iOS,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0024469,2026-02-14 06:04:18,U1205,R3006,531.1,Bank_E,Bank_B,D1205_2,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0024511,2026-02-14 07:50:04,U1822,R0376,699.78,Bank_B,Bank_D,D1822_1,Android,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0024615,2026-02-14 12:12:17,U0641,R3807,467.44,Bank_A,Bank_D,D0641_2,Android,Delhi,Delhi,BillPay,Food,SUCCESS,0,none
+T0024670,2026-02-14 14:30:13,U0136,R1308,362.75,Bank_B,Bank_A,D0136_1,Android,Kolkata,West Bengal,BillPay,Groceries,SUCCESS,0,none
+T0024713,2026-02-14 16:44:58,U0828,R0512,194.2,Bank_D,Bank_C,D0828_1,iOS,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0024811,2026-02-14 20:54:59,U0275,R1443,1701.27,Bank_E,Bank_B,D0275_1,Android,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0024916,2026-02-15 02:23:38,U0418,R3396,263.27,Bank_D,Bank_E,D0418_2,iOS,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0025046,2026-02-15 07:19:28,U0677,R2184,611.22,Bank_E,Bank_B,D0677_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0025081,2026-02-15 08:46:00,U0702,R2072,2205.89,Bank_C,Bank_A,D0702_1,iOS,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0025086,2026-02-15 08:53:45,U1739,R1128,103.32,Bank_E,Bank_D,D1739_1,Android,Mumbai,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0025223,2026-02-15 14:05:27,U0563,R1368,197.25,Bank_E,Bank_D,D0563_2,Android,Jaipur,Rajasthan,BillPay,Groceries,SUCCESS,0,none
+T0025330,2026-02-15 18:34:02,U1936,R0397,1111.58,Bank_A,Bank_E,D1936_2,Android,Pune,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0025350,2026-02-15 19:21:55,U0418,R1545,865.39,Bank_C,Bank_C,D0418_1,iOS,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0025450,2026-02-15 22:44:32,U1648,R1959,4479.54,Bank_A,Bank_C,D1648_2,Android,Jaipur,Rajasthan,BillPay,Other,SUCCESS,0,none
+T0025481,2026-02-16 00:01:45,U0003,R3512,96.09,Bank_C,Bank_A,D0003_1,Android,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0025534,2026-02-16 02:59:08,U0702,R5070,3306.2,Bank_B,Bank_B,D0702_1,Android,Bengaluru,Karnataka,Recharge,Utilities,SUCCESS,0,none
+T0025675,2026-02-16 09:16:47,U1676,R2980,151.67,Bank_C,Bank_D,D1676_1,Android,Pune,Maharashtra,BillPay,Healthcare,SUCCESS,0,none
+T0025769,2026-02-16 13:35:05,U0734,R3813,66.0,Bank_A,Bank_D,D0734_1,Android,Pune,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0025925,2026-02-16 20:58:30,U1645,R3500,297.94,Bank_E,Bank_B,D1645_1,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0025971,2026-02-16 22:36:08,U0347,R1437,340.05,Bank_A,Bank_D,D0347_1,Android,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0026084,2026-02-17 03:31:03,U0129,R2368,878.87,Bank_E,Bank_D,D0129_1,Android,Chennai,Tamil Nadu,Recharge,Utilities,SUCCESS,0,none
+T0026090,2026-02-17 03:48:49,U0370,R3215,373.31,Bank_B,Bank_D,D0370_1,Android,Pune,Maharashtra,P2P,Food,SUCCESS,0,none
+T0026159,2026-02-17 06:58:14,U0828,R3945,787.69,Bank_E,Bank_B,D0828_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0026179,2026-02-17 07:49:38,U1799,R0796,854.14,Bank_D,Bank_D,D1799_1,Android,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0026236,2026-02-17 10:12:22,U1210,R3885,162.37,Bank_D,Bank_E,D1210_2,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0026242,2026-02-17 10:20:31,U1481,R0336,151.6,Bank_A,Bank_B,D1481_2,Android,Chennai,Tamil Nadu,P2M,Shopping,SUCCESS,0,none
+T0026274,2026-02-17 12:00:23,U1535,R0569,785.33,Bank_D,Bank_D,D1535_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0026336,2026-02-17 14:45:04,U0599,R0635,878.98,Bank_E,Bank_B,D0599_1,Android,Chennai,Tamil Nadu,Recharge,Other,SUCCESS,0,none
+T0026397,2026-02-17 17:08:50,U0828,R3280,54.25,Bank_A,Bank_A,D0828_1,Android,Delhi,Delhi,P2M,Shopping,SUCCESS,0,none
+T0026403,2026-02-17 17:18:27,U1979,R3229,196.76,Bank_D,Bank_A,D1979_1,Android,Jaipur,Rajasthan,BillPay,Groceries,SUCCESS,0,none
+T0026498,2026-02-17 20:58:06,U1765,R1719,165.62,Bank_B,Bank_A,D1765_1,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0026511,2026-02-17 21:34:18,U1795,R4771,572.78,Bank_B,Bank_C,D1795_1,Android,Chennai,Tamil Nadu,Recharge,Shopping,SUCCESS,0,none
+T0026528,2026-02-17 22:02:09,U0808,R0140,2216.11,Bank_E,Bank_B,D0808_1,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0026542,2026-02-17 22:37:44,U1269,R3608,500.36,Bank_E,Bank_B,D1269_1,Android,Delhi,Delhi,P2M,Other,SUCCESS,0,none
+T0026551,2026-02-17 22:51:55,U1833,R2294,1140.25,Bank_E,Bank_D,NEW_95568,Android,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,1,mixed
+T0026594,2026-02-18 00:49:46,U0397,R3098,4070.09,Bank_D,Bank_B,D0397_1,iOS,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0026696,2026-02-18 05:26:19,U0249,R2759,338.39,Bank_C,Bank_C,D0249_1,iOS,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0026804,2026-02-18 10:58:12,U0914,R2715,1379.24,Bank_D,Bank_B,D0914_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0026821,2026-02-18 11:42:57,U1304,R0429,395.35,Bank_D,Bank_D,D1304_1,Android,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0027162,2026-02-19 02:32:26,U1338,R0274,909.26,Bank_A,Bank_E,D1338_1,iOS,Kolkata,West Bengal,P2M,Healthcare,SUCCESS,0,none
+T0027239,2026-02-19 05:22:53,U0993,R0735,140.25,Bank_D,Bank_B,D0993_1,iOS,Pune,Maharashtra,Recharge,Travel,SUCCESS,0,none
+T0027293,2026-02-19 07:20:46,U0802,R0233,319.71,Bank_E,Bank_A,D0802_1,iOS,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0027374,2026-02-19 10:41:57,U0378,R3139,1598.38,Bank_B,Bank_E,D0378_2,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0027439,2026-02-19 13:16:37,U1364,R0533,1881.45,Bank_B,Bank_A,D1364_1,iOS,Jaipur,Rajasthan,P2M,Shopping,SUCCESS,0,none
+T0027442,2026-02-19 13:21:43,U0977,R3624,53.3,Bank_B,Bank_C,D0977_2,iOS,Jaipur,Rajasthan,BillPay,Shopping,SUCCESS,0,none
+T0027475,2026-02-19 14:42:47,U1973,R0938,1211.72,Bank_A,Bank_B,D1973_1,iOS,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0027579,2026-02-19 19:13:05,U0235,R1488,755.42,Bank_E,Bank_D,D0235_1,Android,Mumbai,Maharashtra,P2P,Shopping,SUCCESS,1,velocity
+T0027659,2026-02-19 22:45:05,U1361,R2492,469.54,Bank_C,Bank_C,D1361_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0027803,2026-02-20 03:55:57,U1037,R0510,1044.66,Bank_E,Bank_D,NEW_84436,Android,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0027873,2026-02-20 06:39:17,U1822,R0522,1803.83,Bank_B,Bank_C,D1822_1,iOS,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0027879,2026-02-20 06:43:02,U0022,R2072,1585.65,Bank_C,Bank_A,D0022_1,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0027996,2026-02-20 11:18:24,U0001,R0745,442.98,Bank_C,Bank_E,D0001_1,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0028076,2026-02-20 14:46:00,U1765,R3565,946.4,Bank_A,Bank_B,NEW_20999,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,1,mixed
+T0028087,2026-02-20 15:15:12,U0338,R1818,263.37,Bank_C,Bank_C,D0338_2,Android,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0028103,2026-02-20 15:46:09,U1425,R4357,1091.72,Bank_C,Bank_D,D1425_2,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,1,new_receiver_amount
+T0028170,2026-02-20 18:13:45,U0702,R2460,3694.86,Bank_A,Bank_D,D0702_1,Android,Bengaluru,Karnataka,Recharge,Shopping,SUCCESS,0,none
+T0028367,2026-02-21 02:19:09,U1908,R3433,138.04,Bank_C,Bank_B,D1908_2,iOS,Kolkata,West Bengal,P2M,Shopping,SUCCESS,0,none
+T0028376,2026-02-21 02:33:55,U1928,R5731,186.35,Bank_B,Bank_C,D1928_1,Android,Delhi,Delhi,P2M,Food,SUCCESS,0,none
+T0028560,2026-02-21 10:27:45,U1409,R1482,1512.52,Bank_B,Bank_D,NEW_43334,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0028617,2026-02-21 12:32:45,U0275,R1443,2662.98,Bank_E,Bank_E,D0275_1,Android,Delhi,Delhi,Recharge,Healthcare,SUCCESS,0,none
+T0028749,2026-02-21 19:38:11,U0984,R2043,392.41,Bank_A,Bank_A,D0984_1,iOS,Jaipur,Rajasthan,BillPay,Shopping,SUCCESS,0,none
+T0028825,2026-02-21 23:08:48,U1636,R3447,1378.39,Bank_C,Bank_E,D1636_1,Android,Pune,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0028881,2026-02-22 01:10:32,U1628,R1465,500.99,Bank_C,Bank_C,D1628_1,iOS,Kolkata,West Bengal,P2P,Shopping,SUCCESS,0,none
+T0029047,2026-02-22 09:13:43,U1094,R2638,2426.93,Bank_E,Bank_B,D1094_2,Android,Mumbai,Maharashtra,P2M,Food,SUCCESS,0,none
+T0029090,2026-02-22 11:11:21,U0421,R2481,141.23,Bank_A,Bank_B,D0421_1,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0029104,2026-02-22 11:50:58,U0576,R1640,696.52,Bank_E,Bank_B,D0576_1,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0029113,2026-02-22 12:10:13,U1628,R1465,186.65,Bank_D,Bank_C,D1628_1,Android,Kolkata,West Bengal,P2M,Shopping,SUCCESS,0,none
+T0029183,2026-02-22 15:43:07,U0615,R2307,139.32,Bank_A,Bank_A,D0615_1,Android,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,0,none
+T0029187,2026-02-22 15:53:03,U1287,R5190,247.49,Bank_D,Bank_C,D1287_1,Android,Mumbai,Maharashtra,P2M,Other,SUCCESS,0,none
+T0029227,2026-02-22 17:38:48,U0341,R3977,845.08,Bank_D,Bank_E,D0341_1,iOS,Pune,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0029283,2026-02-22 19:38:47,U0651,R2443,51.35,Bank_C,Bank_D,D0651_1,Android,Jaipur,Rajasthan,P2M,Utilities,SUCCESS,0,none
+T0029340,2026-02-22 21:41:39,U0609,R3536,673.6,Bank_A,Bank_B,D0609_1,Android,Bengaluru,Karnataka,BillPay,Travel,SUCCESS,0,none
+T0029393,2026-02-22 23:54:02,U1159,R5158,2058.82,Bank_B,Bank_C,D1159_1,Android,Mumbai,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0029498,2026-02-23 04:27:51,U0702,R1397,1246.66,Bank_E,Bank_A,D0702_1,iOS,Bengaluru,Karnataka,P2P,Food,SUCCESS,0,none
+T0029562,2026-02-23 07:05:10,U0158,R5848,573.77,Bank_D,Bank_E,D0158_1,Android,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0029601,2026-02-23 08:33:12,U1487,R3650,2342.2,Bank_A,Bank_A,D1487_1,Android,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0029626,2026-02-23 09:33:46,U1039,R4984,424.58,Bank_D,Bank_A,D1039_1,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0029643,2026-02-23 10:15:09,U1645,R3500,217.42,Bank_B,Bank_B,D1645_1,Android,Delhi,Delhi,Recharge,Food,SUCCESS,0,none
+T0029645,2026-02-23 10:22:56,U0373,R2545,408.54,Bank_B,Bank_D,D0373_1,Android,Kolkata,West Bengal,BillPay,Groceries,SUCCESS,0,none
+T0029661,2026-02-23 10:57:12,U1215,R2919,587.26,Bank_B,Bank_D,D1215_1,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,0,none
+T0029703,2026-02-23 13:31:47,U1283,R0555,269.39,Bank_B,Bank_C,D1283_1,Android,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0029719,2026-02-23 14:11:49,U1159,R3317,784.44,Bank_D,Bank_C,D1159_2,iOS,Mumbai,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0029753,2026-02-23 15:23:03,U0996,R1992,264.71,Bank_B,Bank_A,D0996_2,iOS,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0029828,2026-02-23 19:19:05,U0952,R2339,83.12,Bank_B,Bank_C,D0952_1,Android,Chennai,Tamil Nadu,P2M,Shopping,SUCCESS,0,none
+T0029918,2026-02-23 22:24:09,U0624,R2655,461.56,Bank_E,Bank_D,D0624_1,Android,Kolkata,West Bengal,P2P,Groceries,SUCCESS,0,none
+T0029931,2026-02-23 23:00:41,U0354,R0593,493.1,Bank_B,Bank_E,D0354_2,Android,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0030002,2026-02-24 03:00:18,U1647,R5116,325.14,Bank_B,Bank_D,D1647_1,Android,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0030033,2026-02-24 04:17:31,U1120,R3218,721.99,Bank_D,Bank_E,NEW_1884,Android,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0030093,2026-02-24 06:53:25,U0823,R0403,9546.17,Bank_B,Bank_A,D0823_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0030096,2026-02-24 06:58:20,U1016,R3375,505.04,Bank_A,Bank_A,D1016_1,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,0,none
+T0030173,2026-02-24 10:47:22,U1091,R1889,747.2,Bank_E,Bank_D,D1091_2,Android,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0030189,2026-02-24 11:30:55,U1185,R3986,3548.01,Bank_E,Bank_D,D1185_2,Android,Hyderabad,Telangana,BillPay,Groceries,SUCCESS,0,none
+T0030243,2026-02-24 14:04:48,U0318,R1479,103.68,Bank_D,Bank_C,D0318_1,iOS,Mumbai,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0030264,2026-02-24 14:57:39,U0858,R3539,1257.77,Bank_A,Bank_A,D0858_1,iOS,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0030441,2026-02-24 22:09:31,U1636,R3656,552.11,Bank_B,Bank_B,D1636_1,Android,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0030478,2026-02-24 23:55:02,U1929,R0416,586.87,Bank_C,Bank_E,D1929_2,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0030511,2026-02-25 01:39:55,U1508,R2131,2123.41,Bank_C,Bank_B,D1508_1,Android,Delhi,Delhi,Recharge,Other,SUCCESS,0,none
+T0030526,2026-02-25 02:11:29,U1674,R4684,331.25,Bank_D,Bank_B,D1674_1,Android,Pune,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0030580,2026-02-25 04:40:12,U0734,R3813,45.82,Bank_A,Bank_A,D0734_1,iOS,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0030639,2026-02-25 07:01:42,U1822,R0376,792.94,Bank_C,Bank_D,D1822_1,iOS,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0030709,2026-02-25 10:11:28,U1757,R2420,298.38,Bank_E,Bank_B,D1757_1,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0030746,2026-02-25 11:47:24,U1159,R3975,1068.13,Bank_A,Bank_D,D1159_1,iOS,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0030804,2026-02-25 13:53:37,U0289,R3535,552.6,Bank_D,Bank_D,D0289_2,Android,Chennai,Tamil Nadu,P2P,Travel,SUCCESS,0,none
+T0030861,2026-02-25 15:51:55,U1440,R0125,400.84,Bank_C,Bank_E,D1440_1,Android,Jaipur,Rajasthan,P2M,Healthcare,SUCCESS,1,velocity
+T0030878,2026-02-25 16:33:58,U1543,R0786,712.95,Bank_E,Bank_B,D1543_2,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0031075,2026-02-26 02:00:32,U1709,R0654,46.61,Bank_E,Bank_E,D1709_2,iOS,Chennai,Tamil Nadu,P2M,Shopping,SUCCESS,0,none
+T0031139,2026-02-26 04:28:34,U1952,R0485,1129.93,Bank_C,Bank_E,D1952_2,Android,Chennai,Tamil Nadu,BillPay,Food,SUCCESS,0,none
+T0031144,2026-02-26 04:33:56,U0828,R3136,100.65,Bank_D,Bank_C,D0828_1,Android,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0031190,2026-02-26 06:22:13,U0996,R0908,178.24,Bank_B,Bank_C,D0996_1,Android,Pune,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0031459,2026-02-26 16:57:25,U1822,R0299,1628.0,Bank_D,Bank_C,D1822_1,Android,Bengaluru,Karnataka,P2P,Travel,SUCCESS,0,none
+T0031470,2026-02-26 17:12:32,U0078,R3496,965.58,Bank_E,Bank_B,D0078_1,Android,Hyderabad,Telangana,P2P,Healthcare,SUCCESS,0,none
+T0031497,2026-02-26 18:18:06,U0394,R3384,339.58,Bank_E,Bank_A,D0394_1,Android,Hyderabad,Telangana,P2M,Shopping,SUCCESS,0,none
+T0031521,2026-02-26 19:28:27,U0104,R1558,210.07,Bank_E,Bank_A,D0104_2,Android,Delhi,Delhi,BillPay,Travel,SUCCESS,0,none
+T0031726,2026-02-27 03:22:35,U1418,R1094,279.15,Bank_B,Bank_B,D1418_2,Android,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0031728,2026-02-27 03:27:38,U1916,R3939,780.69,Bank_E,Bank_A,D1916_1,Android,Hyderabad,Telangana,P2P,Healthcare,SUCCESS,0,none
+T0031756,2026-02-27 04:37:53,U0907,R2950,1339.08,Bank_B,Bank_D,D0907_1,Android,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0031920,2026-02-27 11:26:55,U1123,R5899,4699.1,Bank_C,Bank_E,D1123_2,Android,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0031990,2026-02-27 14:07:23,U0235,R3515,1022.95,Bank_D,Bank_E,D0235_1,Android,Mumbai,Maharashtra,P2P,Other,SUCCESS,0,none
+T0032059,2026-02-27 16:52:07,U0776,R1643,785.8,Bank_A,Bank_C,D0776_2,Android,Mumbai,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0032204,2026-02-27 23:02:39,U1741,R0937,221.36,Bank_B,Bank_D,D1741_1,Android,Chennai,Tamil Nadu,P2P,Utilities,SUCCESS,0,none
+T0032208,2026-02-27 23:09:47,U1123,R1675,385.73,Bank_C,Bank_A,D1123_2,iOS,Bengaluru,Karnataka,Recharge,Utilities,SUCCESS,0,none
+T0032226,2026-02-28 00:00:50,U0387,R1423,606.04,Bank_E,Bank_B,D0387_1,Android,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0032250,2026-02-28 01:00:54,U0828,R3280,303.58,Bank_E,Bank_C,D0828_2,Android,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0032375,2026-02-28 05:23:39,U1288,R3562,3116.86,Bank_C,Bank_A,D1288_2,Android,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0032390,2026-02-28 05:55:10,U1378,R3235,665.71,Bank_A,Bank_C,D1378_1,Android,Mumbai,Maharashtra,Recharge,Utilities,SUCCESS,0,none
+T0032405,2026-02-28 06:24:10,U0418,R2568,99.44,Bank_E,Bank_B,D0418_1,Android,Jaipur,Rajasthan,P2M,Healthcare,SUCCESS,0,none
+T0032493,2026-02-28 10:08:09,U1474,R0351,240.93,Bank_C,Bank_C,D1474_2,iOS,Delhi,Delhi,BillPay,Travel,SUCCESS,0,none
+T0032685,2026-02-28 18:43:45,U1801,R5863,1448.11,Bank_A,Bank_E,D1801_1,Android,Kolkata,West Bengal,BillPay,Healthcare,SUCCESS,0,none
+T0032753,2026-02-28 21:59:29,U1305,R2471,603.53,Bank_A,Bank_E,D1305_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0032756,2026-02-28 22:14:06,U1507,R3279,125.9,Bank_A,Bank_A,D1507_2,Android,Bengaluru,Karnataka,P2M,Food,FAILED,0,none
+T0032949,2026-03-01 05:59:29,U1609,R2076,302.15,Bank_A,Bank_E,D1609_2,Android,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0033071,2026-03-01 10:53:02,U0616,R3687,246.66,Bank_E,Bank_B,D0616_1,iOS,Bengaluru,Karnataka,BillPay,Shopping,SUCCESS,0,none
+T0033110,2026-03-01 12:44:20,U0225,R1682,223.32,Bank_B,Bank_A,D0225_1,Android,Pune,Maharashtra,BillPay,Food,SUCCESS,0,none
+T0033184,2026-03-01 15:50:19,U0516,R3337,210.23,Bank_C,Bank_B,D0516_1,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0033246,2026-03-01 18:16:22,U0425,R3359,298.34,Bank_B,Bank_E,D0425_1,Android,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0033452,2026-03-02 03:35:48,U1418,R1094,641.46,Bank_E,Bank_B,D1418_1,Android,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0033499,2026-03-02 05:45:06,U1668,R1859,507.48,Bank_E,Bank_B,D1668_1,iOS,Delhi,Delhi,P2M,Food,SUCCESS,0,none
+T0033554,2026-03-02 07:46:11,U1765,R1990,32.46,Bank_E,Bank_E,D1765_1,Android,Pune,Maharashtra,BillPay,Groceries,SUCCESS,0,none
+T0033705,2026-03-02 14:17:15,U0298,R1806,803.35,Bank_D,Bank_B,D0298_1,Android,Chennai,Tamil Nadu,P2P,Travel,SUCCESS,0,none
+T0033876,2026-03-02 21:36:15,U0262,R1982,1020.64,Bank_D,Bank_D,D0262_1,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0034008,2026-03-03 03:31:15,U1481,R1918,323.72,Bank_D,Bank_A,D1481_2,Android,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0034047,2026-03-03 04:59:26,U1370,R1618,1053.45,Bank_D,Bank_E,D1370_1,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0034063,2026-03-03 05:55:48,U1522,R0705,314.13,Bank_B,Bank_D,D1522_1,iOS,Hyderabad,Telangana,Recharge,Food,SUCCESS,0,none
+T0034080,2026-03-03 06:33:24,U0546,R2466,1684.38,Bank_A,Bank_C,D0546_1,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0034166,2026-03-03 09:52:44,U0378,R3715,735.09,Bank_A,Bank_C,D0378_1,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0034204,2026-03-03 11:11:46,U0457,R2339,200.16,Bank_C,Bank_D,D0457_1,Android,Chennai,Tamil Nadu,BillPay,Food,SUCCESS,0,none
+T0034211,2026-03-03 11:39:40,U0358,R1368,1358.81,Bank_A,Bank_E,D0358_1,Android,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0034224,2026-03-03 12:06:35,U0851,R3384,5511.1,Bank_B,Bank_B,D0851_1,iOS,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0034305,2026-03-03 15:33:23,U1224,R0186,2647.52,Bank_D,Bank_B,D1224_1,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0034408,2026-03-03 20:04:21,U0177,R1250,15393.42,Bank_A,Bank_A,D0177_1,Android,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0034432,2026-03-03 21:17:34,U1105,R0435,274.09,Bank_E,Bank_E,D1105_1,iOS,Jaipur,Rajasthan,BillPay,Groceries,SUCCESS,0,none
+T0034568,2026-03-04 03:57:07,U1822,R0376,738.83,Bank_D,Bank_D,D1822_2,iOS,Bengaluru,Karnataka,BillPay,Travel,SUCCESS,0,none
+T0034616,2026-03-04 06:10:01,U1864,R3469,5334.6,Bank_B,Bank_B,D1864_1,Android,Bengaluru,Karnataka,P2M,Travel,SUCCESS,0,none
+T0034658,2026-03-04 08:17:43,U1713,R2340,9846.62,Bank_D,Bank_D,D1713_1,Android,Hyderabad,Telangana,BillPay,Other,SUCCESS,0,none
+T0034691,2026-03-04 09:58:24,U0858,R1153,698.92,Bank_E,Bank_B,D0858_1,iOS,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0034750,2026-03-04 12:26:20,U0692,R4140,252.78,Bank_B,Bank_D,D0692_1,Android,Jaipur,Rajasthan,Recharge,Shopping,SUCCESS,0,none
+T0034856,2026-03-04 16:55:46,U0965,R1126,1880.15,Bank_D,Bank_C,NEW_7933,Android,Kolkata,West Bengal,P2M,Utilities,SUCCESS,0,none
+T0034922,2026-03-04 19:48:41,U1645,R2141,1087.4,Bank_C,Bank_D,D1645_1,Android,Delhi,Delhi,BillPay,Healthcare,SUCCESS,1,velocity
+T0035034,2026-03-05 00:42:12,U1224,R1487,1825.37,Bank_D,Bank_C,D1224_1,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0035095,2026-03-05 03:37:16,U0115,R2423,944.8,Bank_D,Bank_A,NEW_33210,Android,Bengaluru,Karnataka,P2M,Utilities,SUCCESS,0,none
+T0035144,2026-03-05 06:00:24,U0693,R0992,330.27,Bank_E,Bank_E,D0693_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0035205,2026-03-05 08:09:53,U0493,R0804,21198.41,Bank_C,Bank_C,D0493_1,Android,Chennai,Tamil Nadu,P2M,Shopping,SUCCESS,0,none
+T0035474,2026-03-05 20:21:05,U1628,R0750,389.56,Bank_C,Bank_C,D1628_1,Android,Kolkata,West Bengal,Recharge,Other,SUCCESS,0,none
+T0035540,2026-03-05 22:44:25,U0702,R0347,1199.1,Bank_A,Bank_A,D0702_1,Android,Bengaluru,Karnataka,BillPay,Utilities,SUCCESS,0,none
+T0035558,2026-03-05 23:33:41,U1969,R0737,408.82,Bank_B,Bank_B,D1969_1,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,0,none
+T0035780,2026-03-06 09:14:38,U1185,R3986,314.55,Bank_C,Bank_E,D1185_1,iOS,Hyderabad,Telangana,Recharge,Healthcare,SUCCESS,0,none
+T0035840,2026-03-06 11:45:51,U0115,R3845,560.79,Bank_D,Bank_C,D0115_1,Android,Bengaluru,Karnataka,P2P,Utilities,SUCCESS,0,none
+T0035897,2026-03-06 14:37:19,U1806,R3864,538.11,Bank_A,Bank_A,D1806_2,Android,Hyderabad,Telangana,P2M,Utilities,SUCCESS,0,none
+T0035908,2026-03-06 14:53:06,U0734,R2395,99.86,Bank_D,Bank_B,D0734_1,Android,Pune,Maharashtra,P2P,Other,SUCCESS,0,none
+T0036057,2026-03-06 20:26:18,U1891,R3615,569.87,Bank_C,Bank_E,D1891_2,iOS,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0036128,2026-03-06 23:24:55,U1081,R2254,173.46,Bank_D,Bank_D,D1081_2,iOS,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0036236,2026-03-07 03:51:56,U1123,R1675,446.05,Bank_E,Bank_C,NEW_13067,Android,Bengaluru,Karnataka,Recharge,Healthcare,SUCCESS,0,none
+T0036261,2026-03-07 04:47:35,U0590,R2130,415.59,Bank_E,Bank_C,D0590_1,Android,Kolkata,West Bengal,P2M,Shopping,SUCCESS,0,none
+T0036346,2026-03-07 09:11:43,U1133,R5839,707.37,Bank_A,Bank_A,D1133_1,Android,Mumbai,Maharashtra,P2M,Healthcare,SUCCESS,0,none
+T0036400,2026-03-07 11:02:57,U1288,R2660,409.89,Bank_D,Bank_B,D1288_2,Android,Delhi,Delhi,P2M,Food,SUCCESS,0,none
+T0036421,2026-03-07 12:02:32,U0394,R1196,704.02,Bank_A,Bank_A,D0394_1,Android,Hyderabad,Telangana,Recharge,Utilities,SUCCESS,0,none
+T0036438,2026-03-07 12:52:19,U0685,R4966,14517.48,Bank_E,Bank_C,D0685_1,Android,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,1,new_receiver_amount
+T0036481,2026-03-07 14:59:56,U0911,R1234,151.76,Bank_A,Bank_D,D0911_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0036538,2026-03-07 17:33:34,U0153,R2474,126.14,Bank_B,Bank_D,D0153_2,Android,Chennai,Tamil Nadu,P2P,Food,SUCCESS,0,none
+T0036586,2026-03-07 19:23:27,U0603,R1862,1106.28,Bank_E,Bank_B,D0603_2,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0036673,2026-03-07 23:39:28,U1886,R2541,685.84,Bank_A,Bank_E,D1886_1,Android,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0036720,2026-03-08 01:33:00,U0693,R2486,229.09,Bank_A,Bank_D,D0693_1,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0036760,2026-03-08 03:31:14,U1628,R4666,289.1,Bank_C,Bank_A,D1628_1,Android,Kolkata,West Bengal,P2P,Travel,SUCCESS,0,none
+T0036776,2026-03-08 04:08:41,U1632,R2029,113.3,Bank_E,Bank_A,D1632_1,iOS,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0036804,2026-03-08 05:22:39,U1175,R3681,397.11,Bank_B,Bank_C,D1175_1,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0036885,2026-03-08 08:58:16,U0981,R2966,686.06,Bank_B,Bank_E,D0981_1,Android,Hyderabad,Telangana,Recharge,Utilities,SUCCESS,0,none
+T0036894,2026-03-08 09:16:35,U0289,R3997,1861.38,Bank_D,Bank_D,D0289_1,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0036959,2026-03-08 12:25:14,U1885,R2948,680.74,Bank_C,Bank_B,D1885_1,iOS,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0037087,2026-03-08 18:20:45,U1282,R1428,567.58,Bank_E,Bank_E,D1282_1,iOS,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0037096,2026-03-08 18:48:07,U1456,R1294,1183.63,Bank_B,Bank_B,D1456_1,Android,Bengaluru,Karnataka,P2P,Utilities,SUCCESS,0,none
+T0037140,2026-03-08 20:44:59,U1765,R0177,273.58,Bank_A,Bank_C,D1765_1,iOS,Pune,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0037173,2026-03-08 22:00:38,U1454,R2080,536.68,Bank_B,Bank_B,D1454_1,iOS,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0037190,2026-03-08 22:41:55,U1888,R0536,157.16,Bank_E,Bank_B,D1888_1,Android,Hyderabad,Telangana,Recharge,Utilities,SUCCESS,0,none
+T0037196,2026-03-08 23:01:29,U1535,R4093,1046.17,Bank_A,Bank_E,NEW_98063,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0037214,2026-03-08 23:48:54,U1348,R0208,243.07,Bank_A,Bank_D,NEW_79000,Android,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,0,none
+T0037224,2026-03-09 00:20:35,U0553,R2228,666.36,Bank_B,Bank_E,D0553_1,Android,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0037238,2026-03-09 00:56:55,U0609,R1685,15608.86,Bank_B,Bank_B,D0609_1,Android,Bengaluru,Karnataka,Recharge,Healthcare,SUCCESS,0,none
+T0037287,2026-03-09 02:35:27,U0814,R5786,307.31,Bank_E,Bank_C,D0814_1,Android,Chennai,Tamil Nadu,P2P,Utilities,SUCCESS,0,none
+T0037518,2026-03-09 12:17:22,U1284,R3681,452.81,Bank_B,Bank_E,D1284_1,Android,Pune,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0037602,2026-03-09 16:01:38,U1756,R4551,2187.02,Bank_A,Bank_E,D1756_1,Android,Hyderabad,Telangana,P2P,Utilities,SUCCESS,0,none
+T0037613,2026-03-09 16:45:02,U1632,R2029,84.35,Bank_E,Bank_C,D1632_1,Android,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0037625,2026-03-09 17:30:21,U1238,R3585,1340.64,Bank_B,Bank_D,D1238_1,Android,Bengaluru,Karnataka,P2P,Food,SUCCESS,0,none
+T0037669,2026-03-09 19:31:49,U1045,R0443,1226.9,Bank_C,Bank_E,D1045_1,Android,Delhi,Delhi,P2P,Other,FAILED,0,none
+T0037737,2026-03-09 22:08:20,U0807,R2366,371.88,Bank_A,Bank_D,D0807_1,iOS,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0037867,2026-03-10 04:15:44,U1377,R2629,287.67,Bank_A,Bank_D,D1377_2,Android,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0037892,2026-03-10 05:22:04,U1159,R3200,1018.02,Bank_B,Bank_B,D1159_2,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0037916,2026-03-10 06:15:46,U1822,R0522,531.62,Bank_C,Bank_B,D1822_1,Android,Bengaluru,Karnataka,BillPay,Other,SUCCESS,0,none
+T0038065,2026-03-10 12:58:27,U1159,R3975,465.6,Bank_D,Bank_D,D1159_2,Android,Mumbai,Maharashtra,P2M,Food,SUCCESS,0,none
+T0038163,2026-03-10 16:40:47,U1752,R2816,806.63,Bank_A,Bank_E,D1752_1,Android,Mumbai,Maharashtra,BillPay,Groceries,SUCCESS,0,none
+T0038173,2026-03-10 17:08:17,U0078,R3198,5061.87,Bank_A,Bank_D,D0078_1,Android,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0038215,2026-03-10 18:42:07,U0343,R2516,278.6,Bank_D,Bank_A,D0343_1,Android,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0038243,2026-03-10 19:47:22,U1636,R3656,4190.29,Bank_C,Bank_C,D1636_1,Android,Pune,Maharashtra,P2M,Groceries,FAILED,0,none
+T0038250,2026-03-10 20:02:45,U0200,R0577,360.08,Bank_C,Bank_D,D0200_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0038265,2026-03-10 20:35:58,U1334,R3002,1097.04,Bank_D,Bank_E,D1334_1,Android,Mumbai,Maharashtra,P2P,Healthcare,SUCCESS,0,none
+T0038341,2026-03-10 23:52:11,U0512,R1474,1308.34,Bank_A,Bank_E,D0512_2,iOS,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0038386,2026-03-11 01:15:18,U0116,R3339,1063.22,Bank_C,Bank_C,D0116_1,Android,Bengaluru,Karnataka,P2M,Shopping,FAILED,0,none
+T0038479,2026-03-11 05:18:44,U1486,R1871,901.01,Bank_E,Bank_B,D1486_1,iOS,Mumbai,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0038537,2026-03-11 07:32:53,U1609,R0590,668.22,Bank_D,Bank_B,D1609_1,Android,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0038556,2026-03-11 08:15:05,U0644,R4288,525.76,Bank_E,Bank_B,D0644_2,Android,Chennai,Tamil Nadu,P2M,Utilities,SUCCESS,0,none
+T0038696,2026-03-11 14:01:18,U1690,R1165,194.35,Bank_C,Bank_A,D1690_1,Android,Chennai,Tamil Nadu,P2P,Groceries,SUCCESS,0,none
+T0038735,2026-03-11 15:32:57,U1283,R0555,64.17,Bank_C,Bank_C,D1283_1,Android,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0038801,2026-03-11 18:51:35,U0751,R0525,597.63,Bank_B,Bank_B,D0751_2,Android,Hyderabad,Telangana,Recharge,Food,FAILED,0,none
+T0038921,2026-03-12 00:34:21,U1484,R5068,185.24,Bank_E,Bank_C,D1484_1,Android,Delhi,Delhi,P2P,Groceries,SUCCESS,0,none
+T0039249,2026-03-12 14:33:27,U1673,R0963,373.0,Bank_D,Bank_A,D1673_1,Android,Bengaluru,Karnataka,P2M,Groceries,SUCCESS,0,none
+T0039251,2026-03-12 14:33:44,U0609,R2571,917.16,Bank_B,Bank_E,D0609_1,Android,Bengaluru,Karnataka,P2P,Travel,SUCCESS,0,none
+T0039329,2026-03-12 18:40:28,U0661,R2478,830.87,Bank_E,Bank_C,D0661_1,Android,Mumbai,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0039328,2026-03-12 18:40:28,U1376,R3879,120.53,Bank_B,Bank_B,D1376_1,Android,Kolkata,West Bengal,P2M,Other,SUCCESS,0,none
+T0039358,2026-03-12 20:01:53,U0831,R0744,1837.35,Bank_A,Bank_B,D0831_1,Android,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0039476,2026-03-13 01:16:06,U1898,R2309,3412.89,Bank_A,Bank_E,D1898_2,iOS,Mumbai,Maharashtra,P2P,Travel,SUCCESS,1,high_amount
+T0039484,2026-03-13 01:47:26,U1864,R2059,11132.36,Bank_E,Bank_E,D1864_2,Android,Bengaluru,Karnataka,BillPay,Groceries,FAILED,0,none
+T0039490,2026-03-13 02:06:07,U1642,R2438,2290.42,Bank_A,Bank_C,D1642_1,Android,Hyderabad,Telangana,BillPay,Utilities,SUCCESS,0,none
+T0039507,2026-03-13 03:03:08,U0599,R3759,677.8,Bank_B,Bank_D,D0599_1,Android,Chennai,Tamil Nadu,P2M,Travel,SUCCESS,0,none
+T0039531,2026-03-13 04:02:48,U0692,R0876,1248.74,Bank_C,Bank_D,D0692_1,iOS,Jaipur,Rajasthan,P2M,Utilities,SUCCESS,0,none
+T0040041,2026-03-14 01:49:55,U0063,R0388,931.39,Bank_B,Bank_D,D0063_1,iOS,Bengaluru,Karnataka,P2M,Utilities,SUCCESS,0,none
+T0040186,2026-03-14 07:46:29,U1748,R0387,580.09,Bank_E,Bank_C,D1748_2,iOS,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0040196,2026-03-14 07:55:30,U1522,R0109,153.75,Bank_C,Bank_E,D1522_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0040360,2026-03-14 15:18:22,U1049,R1376,1342.66,Bank_B,Bank_E,D1049_1,Android,Pune,Maharashtra,P2M,Other,SUCCESS,0,none
+T0040486,2026-03-14 20:38:23,U1652,R3872,580.88,Bank_A,Bank_C,D1652_1,Android,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0040684,2026-03-15 05:42:43,U1690,R2975,251.61,Bank_B,Bank_D,D1690_1,Android,Chennai,Tamil Nadu,P2P,Healthcare,SUCCESS,0,none
+T0040972,2026-03-15 18:02:58,U0550,R2482,441.74,Bank_D,Bank_A,D0550_2,Android,Jaipur,Rajasthan,Recharge,Shopping,SUCCESS,0,none
+T0041100,2026-03-16 00:02:34,U0991,R0103,54.14,Bank_C,Bank_C,D0991_1,Android,Bengaluru,Karnataka,P2M,Food,SUCCESS,0,none
+T0041164,2026-03-16 02:18:30,U0828,R0338,197.48,Bank_C,Bank_B,NEW_43626,Android,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0041253,2026-03-16 06:14:55,U0716,R0209,137.85,Bank_D,Bank_E,D0716_1,Android,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0041281,2026-03-16 07:16:03,U0418,R1950,175.42,Bank_A,Bank_A,D0418_2,Android,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0041328,2026-03-16 09:52:57,U0828,R5757,231.72,Bank_D,Bank_A,D0828_1,Android,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0041336,2026-03-16 10:09:30,U0581,R1226,2286.55,Bank_A,Bank_C,D0581_1,Android,Kolkata,West Bengal,P2P,Shopping,SUCCESS,0,none
+T0041340,2026-03-16 10:16:21,U1765,R3565,161.83,Bank_C,Bank_E,D1765_1,Android,Jaipur,Rajasthan,P2P,Travel,SUCCESS,0,none
+T0041390,2026-03-16 13:25:55,U0637,R2582,454.56,Bank_C,Bank_A,D0637_1,iOS,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0041504,2026-03-16 18:48:13,U0702,R2243,4382.79,Bank_E,Bank_C,D0702_1,iOS,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0041515,2026-03-16 19:06:53,U0220,R1229,167.97,Bank_A,Bank_D,D0220_1,Android,Kolkata,West Bengal,P2M,Utilities,SUCCESS,0,none
+T0041694,2026-03-17 03:15:40,U1645,R3500,90.83,Bank_C,Bank_D,D1645_1,iOS,Delhi,Delhi,P2P,Food,SUCCESS,0,none
+T0041837,2026-03-17 09:16:15,U1460,R3567,355.45,Bank_E,Bank_A,D1460_1,Android,Pune,Maharashtra,Recharge,Other,SUCCESS,0,none
+T0042029,2026-03-17 17:05:04,U0373,R2545,147.33,Bank_C,Bank_E,NEW_80147,Android,Kolkata,West Bengal,P2P,Other,SUCCESS,0,none
+T0042091,2026-03-17 19:40:10,U0338,R0497,61.57,Bank_A,Bank_E,D0338_2,Android,Pune,Maharashtra,P2P,Healthcare,FAILED,0,none
+T0042112,2026-03-17 20:59:08,U0064,R0341,322.32,Bank_D,Bank_B,D0064_2,Android,Hyderabad,Telangana,P2P,Healthcare,SUCCESS,0,none
+T0042128,2026-03-17 21:42:08,U1159,R3200,676.26,Bank_B,Bank_B,D1159_2,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0042207,2026-03-18 01:36:00,U0821,R0863,1304.84,Bank_E,Bank_A,D0821_1,Android,Bengaluru,Karnataka,P2M,Shopping,FAILED,0,none
+T0042295,2026-03-18 06:19:01,U1822,R0376,827.08,Bank_C,Bank_B,D1822_2,Android,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0042425,2026-03-18 11:26:47,U1912,R0402,260.34,Bank_D,Bank_A,D1912_1,Android,Hyderabad,Telangana,P2P,Groceries,SUCCESS,0,none
+T0042455,2026-03-18 12:42:24,U0374,R2657,547.44,Bank_A,Bank_C,D0374_1,Android,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0042502,2026-03-18 14:48:19,U1413,R1944,104.61,Bank_C,Bank_B,D1413_1,Android,Pune,Maharashtra,P2M,Food,SUCCESS,0,none
+T0042584,2026-03-18 18:32:46,U1523,R3923,692.81,Bank_B,Bank_E,D1523_2,iOS,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0042591,2026-03-18 18:47:22,U0828,R3945,89.74,Bank_E,Bank_E,D0828_2,iOS,Delhi,Delhi,BillPay,Utilities,SUCCESS,0,none
+T0042606,2026-03-18 19:25:30,U1042,R3931,973.26,Bank_B,Bank_D,D1042_1,Android,Jaipur,Rajasthan,P2P,Groceries,SUCCESS,0,none
+T0042652,2026-03-18 22:29:31,U0769,R1967,1584.79,Bank_E,Bank_E,D0769_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0042685,2026-03-18 23:57:51,U0076,R3127,539.1,Bank_A,Bank_B,D0076_1,Android,Chennai,Tamil Nadu,P2M,Healthcare,FAILED,0,none
+T0042725,2026-03-19 01:57:01,U0597,R2612,519.07,Bank_B,Bank_A,D0597_1,iOS,Bengaluru,Karnataka,P2P,Other,SUCCESS,0,none
+T0042746,2026-03-19 02:51:19,U1721,R3808,1874.71,Bank_E,Bank_E,D1721_1,iOS,Bengaluru,Karnataka,P2P,Healthcare,SUCCESS,0,none
+T0042768,2026-03-19 03:35:27,U1607,R0033,19674.08,Bank_A,Bank_A,D1607_1,Android,Jaipur,Rajasthan,BillPay,Other,SUCCESS,0,none
+T0042812,2026-03-19 05:52:10,U1429,R4476,278.46,Bank_D,Bank_C,D1429_2,Android,Kolkata,West Bengal,P2P,Utilities,SUCCESS,0,none
+T0042977,2026-03-19 12:00:44,U1861,R2596,1269.59,Bank_C,Bank_C,D1861_2,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0043045,2026-03-19 14:40:15,U0636,R1370,223.61,Bank_D,Bank_D,D0636_2,Android,Delhi,Delhi,P2M,Groceries,SUCCESS,0,none
+T0043049,2026-03-19 14:53:33,U1881,R2087,429.2,Bank_E,Bank_A,D1881_2,Android,Chennai,Tamil Nadu,P2M,Groceries,SUCCESS,0,none
+T0043107,2026-03-19 17:21:50,U1645,R1666,355.58,Bank_B,Bank_C,D1645_1,Android,Delhi,Delhi,P2M,Healthcare,SUCCESS,0,none
+T0043119,2026-03-19 17:44:14,U1020,R2874,208.66,Bank_C,Bank_B,D1020_1,Android,Mumbai,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0043137,2026-03-19 18:18:26,U1636,R3656,704.33,Bank_B,Bank_B,D1636_1,Android,Pune,Maharashtra,P2P,Travel,SUCCESS,0,none
+T0043240,2026-03-19 22:55:21,U1886,R3265,660.55,Bank_B,Bank_A,NEW_46059,Android,Pune,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0043282,2026-03-20 00:53:37,U0384,R2295,285.17,Bank_D,Bank_B,D0384_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0043338,2026-03-20 03:03:16,U0984,R3299,182.49,Bank_C,Bank_C,D0984_1,iOS,Jaipur,Rajasthan,P2M,Healthcare,SUCCESS,0,none
+T0043344,2026-03-20 03:24:21,U1513,R2840,2133.02,Bank_D,Bank_C,D1513_1,Android,Delhi,Delhi,P2P,Utilities,SUCCESS,0,none
+T0043468,2026-03-20 09:14:11,U0136,R1680,873.68,Bank_E,Bank_B,D0136_1,Android,Kolkata,West Bengal,Recharge,Groceries,SUCCESS,0,none
+T0043515,2026-03-20 10:47:36,U0395,R4138,925.78,Bank_D,Bank_A,D0395_1,Android,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0043565,2026-03-20 12:31:20,U1667,R2736,1019.49,Bank_C,Bank_E,D1667_1,iOS,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0043650,2026-03-20 15:45:39,U0379,R3811,281.46,Bank_B,Bank_B,D0379_1,iOS,Mumbai,Maharashtra,Recharge,Utilities,SUCCESS,0,none
+T0043825,2026-03-20 22:42:34,U1066,R2208,533.07,Bank_C,Bank_D,D1066_1,Android,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0043835,2026-03-20 23:10:43,U1366,R4477,364.75,Bank_A,Bank_E,D1366_1,iOS,Pune,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0043851,2026-03-21 00:14:50,U0608,R3659,325.78,Bank_B,Bank_D,D0608_1,Android,Mumbai,Maharashtra,P2M,Other,SUCCESS,0,none
+T0044077,2026-03-21 11:23:58,U1645,R0491,164.99,Bank_C,Bank_D,D1645_1,iOS,Delhi,Delhi,P2M,Shopping,SUCCESS,0,none
+T0044212,2026-03-21 17:23:40,U0595,R1788,63.49,Bank_A,Bank_E,D0595_1,Android,Jaipur,Rajasthan,P2P,Healthcare,SUCCESS,0,none
+T0044230,2026-03-21 18:09:56,U0599,R1877,395.76,Bank_B,Bank_D,D0599_1,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0044232,2026-03-21 18:11:30,U1250,R1319,3208.86,Bank_C,Bank_C,D1250_1,Android,Jaipur,Rajasthan,Recharge,Utilities,SUCCESS,0,none
+T0044234,2026-03-21 18:17:38,U1066,R4370,318.1,Bank_C,Bank_A,D1066_1,Android,Bengaluru,Karnataka,P2M,Shopping,SUCCESS,0,none
+T0044235,2026-03-21 18:18:39,U0880,R2758,2129.26,Bank_D,Bank_B,D0880_2,Android,Jaipur,Rajasthan,Recharge,Healthcare,SUCCESS,0,none
+T0044236,2026-03-21 18:23:09,U1200,R0082,1176.71,Bank_D,Bank_C,D1200_1,Android,Hyderabad,Telangana,P2P,Shopping,SUCCESS,0,none
+T0044306,2026-03-21 21:15:43,U1676,R0263,81.68,Bank_A,Bank_E,D1676_1,iOS,Pune,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0044395,2026-03-22 01:32:35,U1709,R0654,56.92,Bank_C,Bank_C,D1709_2,Android,Chennai,Tamil Nadu,P2P,Utilities,SUCCESS,0,none
+T0044662,2026-03-22 12:39:54,U0347,R0006,156.12,Bank_C,Bank_A,D0347_2,iOS,Chennai,Tamil Nadu,BillPay,Other,SUCCESS,0,none
+T0044685,2026-03-22 13:41:40,U1588,R1739,427.73,Bank_C,Bank_E,D1588_1,Android,Mumbai,Maharashtra,P2P,Other,SUCCESS,0,none
+T0044692,2026-03-22 13:49:33,U1897,R2617,1019.32,Bank_D,Bank_C,D1897_1,Android,Bengaluru,Karnataka,P2M,Travel,FAILED,0,none
+T0044713,2026-03-22 14:49:53,U0324,R1835,1225.08,Bank_D,Bank_D,D0324_2,Android,Pune,Maharashtra,P2M,Shopping,SUCCESS,0,none
+T0044744,2026-03-22 16:26:25,U0880,R0582,388.54,Bank_D,Bank_A,D0880_2,iOS,Jaipur,Rajasthan,P2P,Other,SUCCESS,0,none
+T0044799,2026-03-22 18:39:17,U1161,R3649,297.09,Bank_E,Bank_C,D1161_1,Android,Mumbai,Maharashtra,BillPay,Utilities,SUCCESS,0,none
+T0044906,2026-03-22 23:09:52,U0095,R5557,467.89,Bank_D,Bank_B,D0095_2,Android,Jaipur,Rajasthan,P2P,Utilities,SUCCESS,0,none
+T0044953,2026-03-23 01:20:01,U1645,R0491,285.43,Bank_B,Bank_C,D1645_1,Android,Delhi,Delhi,P2M,Travel,SUCCESS,0,none
+T0044997,2026-03-23 03:18:27,U0102,R5727,109.99,Bank_D,Bank_D,D0102_1,Android,Pune,Maharashtra,Recharge,Shopping,SUCCESS,0,none
+T0045056,2026-03-23 05:48:39,U1535,R3302,192.93,Bank_E,Bank_C,D1535_1,Android,Pune,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0045285,2026-03-23 16:04:05,U0390,R0178,345.35,Bank_D,Bank_B,D0390_1,Android,Bengaluru,Karnataka,P2M,Utilities,SUCCESS,0,none
+T0045308,2026-03-23 17:11:05,U0592,R1478,153.0,Bank_E,Bank_C,D0592_2,Android,Kolkata,West Bengal,P2P,Healthcare,SUCCESS,0,none
+T0045341,2026-03-23 18:31:01,U0347,R2546,386.77,Bank_C,Bank_C,D0347_2,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0045344,2026-03-23 18:41:06,U1513,R2840,2359.25,Bank_A,Bank_C,D1513_1,iOS,Delhi,Delhi,P2M,Groceries,SUCCESS,0,none
+T0045465,2026-03-23 23:17:37,U0747,R0676,7990.63,Bank_E,Bank_D,D0747_1,iOS,Kolkata,West Bengal,P2P,Shopping,SUCCESS,0,none
+T0045500,2026-03-24 01:21:53,U0475,R1920,531.57,Bank_C,Bank_B,D0475_2,Android,Pune,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0045578,2026-03-24 04:25:37,U0136,R4446,3122.03,Bank_A,Bank_D,NEW_62132,iOS,Jaipur,Rajasthan,P2P,Shopping,SUCCESS,1,mixed
+T0045638,2026-03-24 06:57:51,U0713,R3399,1109.46,Bank_C,Bank_D,D0713_2,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
+T0045786,2026-03-24 13:35:33,U1518,R0785,261.86,Bank_E,Bank_D,D1518_2,Android,Mumbai,Maharashtra,P2M,Travel,SUCCESS,0,none
+T0045880,2026-03-24 17:11:16,U0702,R0142,17718.88,Bank_C,Bank_A,D0702_1,iOS,Bengaluru,Karnataka,P2M,Healthcare,SUCCESS,0,none
+T0045893,2026-03-24 17:42:24,U0423,R1607,896.46,Bank_C,Bank_E,D0423_2,Android,Delhi,Delhi,P2P,Travel,SUCCESS,0,none
+T0045927,2026-03-24 19:21:56,U1608,R3434,152.64,Bank_A,Bank_E,D1608_1,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0045943,2026-03-24 19:53:47,U1931,R2935,731.11,Bank_E,Bank_D,D1931_1,Android,Mumbai,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0046066,2026-03-25 01:19:01,U0985,R2376,799.87,Bank_E,Bank_B,D0985_2,iOS,Hyderabad,Telangana,P2M,Travel,SUCCESS,0,none
+T0046089,2026-03-25 02:17:22,U1081,R0596,1556.14,Bank_B,Bank_A,D1081_2,Android,Delhi,Delhi,P2P,Other,SUCCESS,0,none
+T0046359,2026-03-25 14:00:45,U0845,R3346,133.42,Bank_A,Bank_B,D0845_1,Android,Jaipur,Rajasthan,BillPay,Healthcare,SUCCESS,0,none
+T0046365,2026-03-25 14:15:31,U0099,R3803,3546.2,Bank_C,Bank_D,D0099_2,iOS,Jaipur,Rajasthan,P2M,Utilities,SUCCESS,0,none
+T0046434,2026-03-25 16:45:37,U0756,R1935,318.89,Bank_B,Bank_C,D0756_1,Android,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0046525,2026-03-25 20:01:55,U1299,R1144,510.95,Bank_D,Bank_E,D1299_1,Android,Delhi,Delhi,P2M,Utilities,SUCCESS,0,none
+T0046548,2026-03-25 21:03:49,U1159,R3975,757.28,Bank_A,Bank_A,D1159_1,iOS,Mumbai,Maharashtra,P2P,Shopping,SUCCESS,0,none
+T0046639,2026-03-26 01:52:50,U0365,R1760,89.71,Bank_C,Bank_B,D0365_1,Android,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0046735,2026-03-26 05:56:32,U0099,R2270,1131.51,Bank_A,Bank_D,D0099_2,Android,Jaipur,Rajasthan,P2P,Food,SUCCESS,0,none
+T0046880,2026-03-26 12:32:45,U0702,R3055,574.38,Bank_B,Bank_E,D0702_1,Android,Bengaluru,Karnataka,Recharge,Other,SUCCESS,0,none
+T0046916,2026-03-26 13:38:20,U1075,R3547,133.21,Bank_B,Bank_C,D1075_1,Android,Chennai,Tamil Nadu,P2P,Shopping,SUCCESS,0,none
+T0046953,2026-03-26 15:05:10,U1636,R0589,278.25,Bank_D,Bank_B,NEW_29398,Android,Pune,Maharashtra,P2M,Groceries,SUCCESS,0,none
+T0046957,2026-03-26 15:09:59,U1224,R0361,558.59,Bank_A,Bank_E,D1224_1,Android,Chennai,Tamil Nadu,P2M,Shopping,SUCCESS,0,none
+T0046977,2026-03-26 15:59:18,U1609,R0413,1124.46,Bank_B,Bank_A,D1609_1,Android,Hyderabad,Telangana,P2M,Other,SUCCESS,0,none
+T0047063,2026-03-26 19:55:29,U1645,R0316,35.75,Bank_A,Bank_E,D1645_1,Android,Bengaluru,Karnataka,P2P,Groceries,SUCCESS,0,none
+T0047088,2026-03-26 21:11:43,U1851,R1071,575.02,Bank_E,Bank_C,D1851_2,iOS,Pune,Maharashtra,Recharge,Groceries,SUCCESS,0,none
+T0047150,2026-03-26 23:38:04,U1206,R3894,702.92,Bank_C,Bank_E,D1206_1,Android,Chennai,Tamil Nadu,BillPay,Food,SUCCESS,0,none
+T0047436,2026-03-27 11:45:21,U0972,R2832,1131.84,Bank_B,Bank_B,D0972_1,Android,Hyderabad,Telangana,P2P,Other,SUCCESS,0,none
+T0047523,2026-03-27 16:05:36,U1063,R3574,172.93,Bank_D,Bank_D,D1063_1,Android,Pune,Maharashtra,Recharge,Other,FAILED,0,none
+T0047579,2026-03-27 18:29:34,U1713,R0053,1536.47,Bank_B,Bank_B,D1713_1,Android,Hyderabad,Telangana,P2P,Travel,SUCCESS,0,none
+T0047592,2026-03-27 19:05:01,U0827,R2753,366.44,Bank_D,Bank_C,D0827_1,Android,Hyderabad,Telangana,P2M,Food,SUCCESS,0,none
+T0047610,2026-03-27 19:59:05,U0387,R1192,2547.56,Bank_E,Bank_D,D0387_1,Android,Bengaluru,Karnataka,P2P,Travel,SUCCESS,0,none
+T0047633,2026-03-27 20:47:50,U1179,R0564,675.77,Bank_A,Bank_C,D1179_1,iOS,Bengaluru,Karnataka,P2P,Shopping,SUCCESS,0,none
+T0047768,2026-03-28 02:00:15,U0136,R0852,348.54,Bank_A,Bank_B,D0136_1,Android,Kolkata,West Bengal,P2M,Groceries,SUCCESS,0,none
+T0047853,2026-03-28 05:23:00,U1185,R0427,612.82,Bank_B,Bank_C,D1185_2,iOS,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0047895,2026-03-28 07:22:30,U0054,R2220,895.57,Bank_A,Bank_E,D0054_2,Android,Pune,Maharashtra,P2M,Other,SUCCESS,0,none
+T0047945,2026-03-28 09:35:04,U1197,R2892,177.83,Bank_C,Bank_E,D1197_1,Android,Pune,Maharashtra,Recharge,Food,SUCCESS,0,none
+T0048064,2026-03-28 14:17:53,U1413,R1349,124.9,Bank_E,Bank_A,D1413_1,iOS,Pune,Maharashtra,P2P,Groceries,SUCCESS,0,none
+T0048086,2026-03-28 15:06:48,U1435,R3890,6825.23,Bank_D,Bank_A,D1435_1,Android,Kolkata,West Bengal,BillPay,Healthcare,SUCCESS,0,none
+T0048105,2026-03-28 15:36:14,U0107,R0693,1706.94,Bank_C,Bank_B,D0107_1,Android,Hyderabad,Telangana,P2M,Healthcare,SUCCESS,0,none
+T0048217,2026-03-28 19:52:26,U0364,R3688,103.91,Bank_A,Bank_D,NEW_80064,iOS,Chennai,Tamil Nadu,Recharge,Groceries,SUCCESS,1,new_device
+T0048225,2026-03-28 20:04:43,U0396,R3812,70.19,Bank_C,Bank_E,D0396_2,iOS,Mumbai,Maharashtra,P2M,Utilities,SUCCESS,0,none
+T0048235,2026-03-28 20:33:23,U0756,R3302,228.56,Bank_C,Bank_E,D0756_2,Android,Mumbai,Maharashtra,P2P,Food,FAILED,0,none
+T0048253,2026-03-28 21:19:02,U1559,R1690,708.59,Bank_B,Bank_E,D1559_1,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0048387,2026-03-29 02:55:08,U0698,R2129,392.64,Bank_D,Bank_C,D0698_2,Android,Jaipur,Rajasthan,P2M,Shopping,SUCCESS,0,none
+T0048395,2026-03-29 03:08:55,U1751,R0733,2313.29,Bank_C,Bank_E,D1751_1,iOS,Chennai,Tamil Nadu,P2P,Travel,FAILED,0,none
+T0048468,2026-03-29 06:46:08,U0828,R3945,63.86,Bank_D,Bank_D,D0828_2,Android,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0048493,2026-03-29 07:36:22,U1383,R1365,616.52,Bank_D,Bank_E,D1383_2,Android,Jaipur,Rajasthan,P2P,Other,SUCCESS,0,none
+T0048526,2026-03-29 08:47:27,U1461,R0653,619.47,Bank_C,Bank_D,D1461_2,iOS,Kolkata,West Bengal,BillPay,Groceries,SUCCESS,0,none
+T0048578,2026-03-29 10:51:15,U1239,R1374,533.77,Bank_A,Bank_D,D1239_1,Android,Pune,Maharashtra,BillPay,Food,SUCCESS,0,none
+T0048651,2026-03-29 13:34:31,U1645,R0491,227.69,Bank_D,Bank_D,D1645_1,Android,Delhi,Delhi,P2M,Groceries,SUCCESS,0,none
+T0048788,2026-03-29 20:11:52,U1418,R2005,6793.73,Bank_A,Bank_E,D1418_2,Android,Jaipur,Rajasthan,Recharge,Utilities,SUCCESS,0,none
+T0048791,2026-03-29 20:13:53,U0444,R3108,395.92,Bank_B,Bank_C,D0444_1,Android,Pune,Maharashtra,P2M,Other,SUCCESS,0,none
+T0048810,2026-03-29 21:20:07,U0586,R0342,680.31,Bank_E,Bank_A,D0586_1,Android,Pune,Maharashtra,P2P,Food,FAILED,0,none
+T0048872,2026-03-30 00:15:50,U0208,R2375,213.09,Bank_D,Bank_C,D0208_1,iOS,Kolkata,West Bengal,P2P,Food,SUCCESS,0,none
+T0048901,2026-03-30 01:26:58,U0007,R3751,9225.66,Bank_A,Bank_E,D0007_1,Android,Bengaluru,Karnataka,P2M,Utilities,SUCCESS,0,none
+T0049147,2026-03-30 11:22:28,U0751,R0401,488.77,Bank_C,Bank_B,NEW_28980,Android,Hyderabad,Telangana,P2P,Groceries,SUCCESS,0,none
+T0049185,2026-03-30 12:51:09,U0401,R3975,495.31,Bank_B,Bank_D,D0401_2,Android,Jaipur,Rajasthan,P2M,Shopping,SUCCESS,0,none
+T0049372,2026-03-30 20:29:51,U1822,R0522,595.48,Bank_B,Bank_A,NEW_93910,Android,Bengaluru,Karnataka,Recharge,Other,SUCCESS,0,none
+T0049499,2026-03-31 02:03:07,U0828,R3945,298.71,Bank_C,Bank_B,D0828_2,Android,Delhi,Delhi,P2P,Shopping,SUCCESS,0,none
+T0049515,2026-03-31 02:53:15,U0153,R2493,209.81,Bank_A,Bank_B,D0153_2,Android,Chennai,Tamil Nadu,P2P,Other,SUCCESS,0,none
+T0049546,2026-03-31 04:06:46,U1895,R1318,2934.0,Bank_B,Bank_B,D1895_1,Android,Delhi,Delhi,P2P,Healthcare,SUCCESS,0,none
+T0049597,2026-03-31 06:00:12,U1636,R0749,479.37,Bank_E,Bank_A,D1636_1,Android,Pune,Maharashtra,P2M,Shopping,FAILED,0,none
+T0049599,2026-03-31 06:05:47,U1690,R5098,315.37,Bank_D,Bank_A,D1690_1,Android,Chennai,Tamil Nadu,P2M,Travel,SUCCESS,0,none
+T0049686,2026-03-31 10:11:29,U1652,R3872,1149.95,Bank_B,Bank_E,D1652_1,Android,Mumbai,Maharashtra,P2P,Utilities,SUCCESS,0,none
+T0049692,2026-03-31 10:22:12,U0599,R3632,1692.24,Bank_E,Bank_E,D0599_1,Android,Chennai,Tamil Nadu,P2M,Travel,SUCCESS,0,none
+T0049710,2026-03-31 11:01:41,U0702,R0142,2283.78,Bank_B,Bank_E,D0702_1,Android,Bengaluru,Karnataka,P2P,Food,SUCCESS,0,none
+T0049718,2026-03-31 11:27:46,U0592,R1810,280.05,Bank_A,Bank_A,D0592_1,iOS,Delhi,Delhi,BillPay,Food,SUCCESS,0,none
+T0049751,2026-03-31 12:48:46,U0828,R4379,76.95,Bank_A,Bank_B,D0828_1,Android,Delhi,Delhi,Recharge,Travel,SUCCESS,0,none
+T0049789,2026-03-31 14:53:52,U0570,R0944,868.33,Bank_E,Bank_C,D0570_1,iOS,Kolkata,West Bengal,P2M,Food,SUCCESS,0,none
+T0049805,2026-03-31 15:44:57,U1536,R2519,1328.89,Bank_C,Bank_E,D1536_2,iOS,Hyderabad,Telangana,P2M,Travel,SUCCESS,0,none
+T0049923,2026-03-31 20:51:52,U1232,R2137,748.0,Bank_A,Bank_B,D1232_1,Android,Mumbai,Maharashtra,Recharge,Food,SUCCESS,0,none
+T0049937,2026-03-31 21:25:57,U0819,R2667,5543.51,Bank_D,Bank_A,D0819_1,Android,Hyderabad,Telangana,P2P,Food,SUCCESS,0,none
