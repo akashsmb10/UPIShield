@@ -65,6 +65,10 @@ pytest -q
 
 Run the API with `uvicorn api.main:app --reload` and open `http://127.0.0.1:8000/docs`. Run the dashboard with `streamlit run dashboard/app.py`.
 
+### Streamlit Community Cloud (standalone)
+
+The dashboard can load the packaged model and committed sample history directly, so it does not require a separately hosted API. In Streamlit Community Cloud, select repository `akashsmb10/UPIShield`, branch `main`, and entrypoint `dashboard/app.py`. No secrets or environment variables are required.
+
 ## Render deployment
 
 Create two Web Services from the same repository:

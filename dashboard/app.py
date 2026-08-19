@@ -1,28 +1,17 @@
 """UPIShield Streamlit dashboard."""
 import json
-import os
 import sqlite3
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-import requests
 import streamlit as st
+from api.main import STATE, load_assets, score as score_locally
+from api.schemas import TransactionRequest
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def api_url():
-    value = os.getenv("UPISHIELD_API_URL")
-    if not value:
-        try:
-            value = st.secrets.get("UPISHIELD_API_URL")
-        except FileNotFoundError:
-            value = None
-    return (value or "http://127.0.0.1:8000").rstrip("/")
-
-
-API_URL = api_url()
 st.set_page_config(page_title="UPIShield", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
 st.markdown("""
 <style>
@@ -44,14 +33,10 @@ def load_metrics():
         return json.load(handle)
 
 
-@st.cache_data(ttl=30)
-def check_api():
-    try:
-        response = requests.get(f"{API_URL}/health", timeout=8)
-        response.raise_for_status()
-        return bool(response.json().get("model_loaded"))
-    except requests.RequestException:
-        return False
+@st.cache_resource
+def initialize_engine():
+    load_assets()
+    return "bundle" in STATE and "history" in STATE
 
 
 @st.cache_data
@@ -82,12 +67,11 @@ with st.sidebar:
     page = st.radio("Navigation", ["Transaction scoring", "Risk overview", "Model performance"], label_visibility="collapsed")
     st.markdown("---")
     st.markdown("**System status**")
-    online = check_api()
-    state = '<span class="status-ok">● API & model online</span>' if online else '<span class="status-bad">● API unavailable</span>'
+    online = initialize_engine()
+    state = '<span class="status-ok">● Scoring engine online</span>' if online else '<span class="status-bad">● Model unavailable</span>'
     st.markdown(state, unsafe_allow_html=True)
-    st.caption(API_URL)
     if st.button("Refresh status", width="stretch"):
-        check_api.clear()
+        initialize_engine.clear()
         st.rerun()
     st.markdown("---")
     st.caption("Synthetic UPI-like data generated solely for educational purposes. Not a production fraud-decision system.")
@@ -121,11 +105,10 @@ if page == "Transaction scoring":
             "city": city, "state": "India", "transaction_type": transaction_type, "merchant_category": category}
         try:
             with st.spinner("Analysing behavioral signals..."):
-                response = requests.post(f"{API_URL}/score", json=payload, timeout=30)
-                response.raise_for_status()
-            st.session_state["last_result"] = response.json()
-        except requests.RequestException as exc:
-            st.error(f"The scoring API could not complete this request. Check the API status and try again.\n\n{exc}")
+                result = score_locally(TransactionRequest(**payload))
+            st.session_state["last_result"] = result.model_dump()
+        except Exception as exc:
+            st.error(f"The local scoring engine could not complete this request.\n\n{exc}")
 
     if result := st.session_state.get("last_result"):
         level = result["risk_level"]
