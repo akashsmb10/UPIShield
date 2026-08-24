@@ -1,8 +1,27 @@
 # UPIShield — Behavioral Transaction Anomaly Detection & Risk Scoring
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-AWS_EC2-FF9900?logo=amazonwebservices&logoColor=white)](http://13.233.147.234:8501)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+### [🚀 Open the live UPIShield dashboard](http://13.233.147.234:8501)
+
+Try an explainable transaction-risk assessment directly in the AWS-hosted Streamlit application.
+
+> **Deployment note:** The demo currently uses an EC2 public IPv4 address. The URL can change if the instance is stopped unless an AWS Elastic IP is associated with it.
+
 ## Overview
 
 UPIShield is an educational fintech ML system that asks: “How unusual is this transaction compared with the user's prior behavior?” It combines transparent rules, an unsupervised Isolation Forest, and a supervised Random Forest into an explainable 0–100 risk score.
+
+### Why this project stands out
+
+- **Behavior-aware:** compares each payment with the sender's prior devices, locations, receivers, timing, and spending patterns
+- **Leakage-conscious:** builds historical features from earlier transactions only and evaluates on a chronological holdout
+- **Explainable:** combines model probability, anomaly detection, and transparent rules into a reasoned 0–100 score
+- **Deployment-ready:** includes a FastAPI scoring service, Streamlit dashboard, packaged model artifact, tests, and cloud configuration
 
 > **Dataset disclaimer:** This project uses synthetic UPI-like transaction data generated solely for educational and portfolio purposes. It contains no real NPCI, PhonePe, Google Pay, Paytm, bank, or customer transaction data.
 
@@ -63,7 +82,36 @@ python scripts/run_pipeline.py
 pytest -q
 ```
 
-Run the API with `uvicorn api.main:app --reload` and open `http://127.0.0.1:8000/docs`. Run the dashboard with `streamlit run dashboard/app.py`.
+Run the API with `uvicorn api.main:app --reload` and open `http://127.0.0.1:8000/docs`. Run the dashboard from the repository root with:
+
+```powershell
+$env:PYTHONPATH = "."
+streamlit run dashboard/app.py
+```
+
+On Linux/macOS, use `PYTHONPATH=. streamlit run dashboard/app.py`.
+
+## AWS EC2 deployment
+
+The [live dashboard](http://13.233.147.234:8501) runs on an Ubuntu EC2 instance in AWS Mumbai (`ap-south-1`). Use Python 3.12 because the pinned scientific-Python dependencies are not compatible with Ubuntu 26.04's default Python 3.14.
+
+```bash
+git clone https://github.com/akashsmb10/UPIShield.git
+cd UPIShield
+
+# Install/use Python 3.12, then create the environment.
+uv python install 3.12
+uv venv --python 3.12 .venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+
+PYTHONPATH=. streamlit run dashboard/app.py \
+  --server.address 0.0.0.0 \
+  --server.port 8501 \
+  --server.headless true
+```
+
+Allow inbound TCP port `8501` in the instance security group. For a production-style deployment, place Nginx in front of Streamlit on ports 80/443, configure TLS, run Streamlit with `systemd`, and associate an Elastic IP or domain.
 
 ### Streamlit Community Cloud (standalone)
 
