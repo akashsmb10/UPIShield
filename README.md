@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-### [🚀 Open the live UPIShield dashboard](http://13.233.147.234:8501)
+### [🚀 Open the live UPIShield dashboard](http://13.207.138.142:8501)
 
 Try an explainable transaction-risk assessment directly in the AWS-hosted Streamlit application.
 
