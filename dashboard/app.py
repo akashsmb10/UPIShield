@@ -1,15 +1,20 @@
 """UPIShield Streamlit dashboard."""
 import json
 import sqlite3
+import sys
 from datetime import datetime
 from pathlib import Path
+
+# Streamlit Community Cloud executes this file from the dashboard directory.
+# Add the repository root so the sibling api and src packages are importable.
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 import pandas as pd
 import streamlit as st
 from api.main import STATE, load_assets, score as score_locally
 from api.schemas import TransactionRequest
-
-ROOT = Path(__file__).resolve().parents[1]
 
 
 st.set_page_config(page_title="UPIShield", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
