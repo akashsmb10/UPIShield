@@ -1,16 +1,16 @@
 # UPIShield — Behavioral Transaction Anomaly Detection & Risk Scoring
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-AWS_EC2-FF9900?logo=amazonwebservices&logoColor=white)](http://13.233.147.234:8501)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit_Cloud-FF4B4B?logo=streamlit&logoColor=white)](https://upishield-oejrj772uqp5hvmwbjsmhv.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-### [🚀 Open the live UPIShield dashboard](http://13.207.138.142:8501)
+### [🚀 Open the live UPIShield dashboard](https://upishield-oejrj772uqp5hvmwbjsmhv.streamlit.app/)
 
-Try an explainable transaction-risk assessment directly in the AWS-hosted Streamlit application.
+Try an explainable transaction-risk assessment directly in the Streamlit Community Cloud application.
 
-> **Deployment note:** The demo currently uses an EC2 public IPv4 address. The URL can change if the instance is stopped unless an AWS Elastic IP is associated with it.
+> **Deployment note:** The public demo runs independently of the optional EC2 deployment. Streamlit Community Cloud may briefly wake the app after a period of inactivity.
 
 ## Overview
 
@@ -91,9 +91,9 @@ streamlit run dashboard/app.py
 
 On Linux/macOS, use `PYTHONPATH=. streamlit run dashboard/app.py`.
 
-## AWS EC2 deployment
+## Optional AWS EC2 deployment
 
-The [live dashboard](http://13.233.147.234:8501) runs on an Ubuntu EC2 instance in AWS Mumbai (`ap-south-1`). Use Python 3.12 because the pinned scientific-Python dependencies are not compatible with Ubuntu 26.04's default Python 3.14.
+The dashboard can also be self-hosted on an Ubuntu EC2 instance. Use Python 3.12 because the pinned scientific-Python dependencies are not compatible with Ubuntu 26.04's default Python 3.14.
 
 ```bash
 git clone https://github.com/akashsmb10/UPIShield.git
@@ -115,7 +115,7 @@ Allow inbound TCP port `8501` in the instance security group. For a production-s
 
 ### Streamlit Community Cloud (standalone)
 
-The dashboard can load the packaged model and committed sample history directly, so it does not require a separately hosted API. In Streamlit Community Cloud, select repository `akashsmb10/UPIShield`, branch `main`, and entrypoint `dashboard/app.py`. No secrets or environment variables are required.
+The [public dashboard](https://upishield-oejrj772uqp5hvmwbjsmhv.streamlit.app/) loads the packaged model and committed sample history directly, so it does not require a separately hosted API. To redeploy it, select repository `akashsmb10/UPIShield`, branch `main`, and entrypoint `dashboard/app.py`. No secrets or environment variables are required.
 
 ## Render deployment
 
